@@ -78,19 +78,16 @@
          var postsPerPage=10;
 
          for(i=1;i<postsPerPage;i++){
-             console.log("loop "+i);
-          
-                        
-                        $("#container").prepend($('<div></div>').load("post"+i+".html .blog", function(responseTxt, statusTxt, xhr){
-                           
-                        if(statusTxt == "success")
-                        console.log("blog"+i+".html found? seriously?");
-                        if(statusTxt == "error")
-                        console.log("Error: " + xhr.status + ": " + xhr.statusText+" blog"+i+"");
-                        }));
-                    
-  
-         }
+            console.log("loop "+i);
+                  
+            $("#container").prepend($('<div></div>').load("post"+i+".html .blog", function(responseTxt, statusTxt, xhr){
+                
+            if(statusTxt == "success")
+            console.log("blog"+i+".html found? seriously?");
+            if(statusTxt == "error")
+            console.log("Error: " + xhr.status + ": " + xhr.statusText+" blog"+i+"");
+            }));
+           }
 
           </script>
 
