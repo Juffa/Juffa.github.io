@@ -79,7 +79,7 @@
 
          for(i=1;i<postsPerPage;i++){
             console.log("loop "+i);
-            var $div=$('<div>');
+            var $div=$('<div id='+i+'>');
             $div.load("post"+i+".html .blog", function(responseTxt, statusTxt, xhr){
               if(statusTxt=="success")
                 console.log("blog"+i+"found");
