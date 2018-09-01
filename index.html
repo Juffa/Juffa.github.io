@@ -79,7 +79,21 @@
 
          for(i=1;i<postsPerPage;i++){
             console.log("loop "+i);
-                  
+            var $div=$('<div>');
+            $div.load("post"+i+".html .blog", function(responseTxt, statusTxt, xhr){
+              if(statusTxt=="success")
+                console.log("blog"+i+"found");
+
+                //ei toimi
+                $("#container").prepend($(this));
+                $("#container").prev('#blogtext').prop("id","blog"+i+"");
+                $("#container").prev('#blogtextbutton').prop("data-target","#blog"+i+"");
+                console.log($(this));
+              if(statusTxt=="error")
+                console.log("Error: " + xhr.status + ": " + xhr.statusText+" blog"+i+"");
+                
+            });
+            /*
             $("#container").prepend($('<div></div>').load("post"+i+".html .blog", function(responseTxt, statusTxt, xhr){
                 
             if(statusTxt == "success")
@@ -87,6 +101,7 @@
             if(statusTxt == "error")
             console.log("Error: " + xhr.status + ": " + xhr.statusText+" blog"+i+"");
             }));
+            */
            }
 
           </script>
