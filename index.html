@@ -58,7 +58,10 @@
        </div><!--/container-->
 
 
+       <div id="testi">
+        
 
+       </div>
      <footer class="blog-footer">
 
      </footer>
@@ -76,11 +79,13 @@
     <script>
          var pagenum=1;
          var postsPerPage=10;
+         var posts=0;
+
 
          for(i=1;i<postsPerPage;i++){
             console.log("loop "+i);
                   
-            $("#container").prepend($('<div></div>').load("post"+i+".html .blog", function(responseTxt, statusTxt, xhr){
+            $("#container").prepend($('<div></div>').load("/posts/"+i+".html .blog", function(responseTxt, statusTxt, xhr){
                 
             if(statusTxt == "success")
             console.log("blog"+i+".html found? seriously?");
@@ -98,6 +103,9 @@
         $('#container').find(":not(.blog)").hide();
         }
     </script>
+
+
+
     <!--<button onclick="hideBlog()">Hide blog</button>-->
 
   <!-- https://www.html5rocks.com/en/tutorials/webcomponents/imports/ -->
