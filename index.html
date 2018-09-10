@@ -79,7 +79,7 @@
       pages=[];
       $.when(
         $.ajax({
-          url:"https:/posts/",
+          url:"/posts/",
           success: function(data){
           $(data).find("a:contains(.html)").each(function(){
             pages.push($(this).attr("href"));
@@ -148,7 +148,7 @@
 
           </script>
 
-
+    
     <script>
         function hideBlog(){
         $('.blogtext').show();
