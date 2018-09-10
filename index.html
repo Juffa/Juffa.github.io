@@ -54,14 +54,10 @@
        </header>
 
        <div class="container" id="container">
-        
+          testing...
        </div><!--/container-->
-       testing...
+      
 
-       <div id="testi">
-        
-
-       </div>
      <footer class="blog-footer">
 
      </footer>
@@ -97,6 +93,7 @@
 
         $.each(pages,function(index,value){
           console.log("slot "+index+", is "+value);
+          $("#container").prepend($('<div></div>').load(value +" .blog", function(){}));
         });
 
         
