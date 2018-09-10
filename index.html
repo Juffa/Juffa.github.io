@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    
 
     <title>Juha's stuff</title>
 
@@ -78,7 +79,7 @@
       pages=[];
       $.when(
         $.ajax({
-          url:"/posts",
+          url:"https:/posts/",
           success: function(data){
           $(data).find("a:contains(.html)").each(function(){
             pages.push($(this).attr("href"));
