@@ -56,7 +56,7 @@
        <div class="container" id="container">
         
        </div><!--/container-->
-
+       testing...
 
        <div id="testi">
         
@@ -76,31 +76,85 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script>
+    
+    
     <script>
+      pages=[];
+      $.when(
+        $.ajax({
+          url:"/posts",
+          success: function(data){
+          $(data).find("a:contains(.html)").each(function(){
+            pages.push($(this).attr("href"));
+          });
+          }
+        })
+
+      ).then(function(){
+        console.log(pages);
+        console.log(pages.length);
+        console.log(pages[0]+", "+pages[1]+", "+pages[3]);
+
+        $.each(pages,function(index,value){
+          console.log("slot "+index+", is "+value);
+        });
+
+        
+        //$("#container").prepend($('<div></div>').load($(this).attr("href") +" .blog", function(){}));
+      });
+
+      </script>
+  
+      <script>
+
+      /*
          var pagenum=1;
          var postsPerPage=10;
-         var posts=0;
+         var posts=[];
+         var totalPosts=1;
+
 
 
          for(i=1;i<postsPerPage;i++){
             console.log("loop "+i);
-                  
-            $("#container").prepend($('<div></div>').load("/posts/"+i+".html .blog", function(responseTxt, statusTxt, xhr){
+            var $div=$('<div id='+i+'>');
+            $div.load("post"+i+".html .blog", function(responseTxt, statusTxt, xhr){
+              if(statusTxt=="success")
+                console.log("blog"+i+"found");
+                posts.push($div);
+
+                
+                $("#blog").prop("id","blog"+i);
+                document.getElementById("blogtextbutton").dataset.target="#blogtext"+i;
+                //vielä sama id blogtextbuttoneissa
+                $("#blogtext").prop("id","blogtext"+i);
+                console.log($(this));
+              if(statusTxt=="error")
+                console.log("Error: " + xhr.status + ": " + xhr.statusText+" blog"+i+"");
+                
+            });
+
+            */
+
+            /*
+            $("#container").prepend($('<div></div>').load("post"+i+".html .blog", function(responseTxt, statusTxt, xhr){
                 
             if(statusTxt == "success")
             console.log("blog"+i+".html found? seriously?");
             if(statusTxt == "error")
             console.log("Error: " + xhr.status + ": " + xhr.statusText+" blog"+i+"");
             }));
-           }
+            */
+           //}
+
 
           </script>
 
 
     <script>
         function hideBlog(){
-        //$('#container').hide();
-        $('#container').find(":not(.blog)").hide();
+        $('.blogtext').show();
+        //$('#container').find(":not(.blog)").hide();
         }
     </script>
 
