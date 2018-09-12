@@ -75,7 +75,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script>
     
     
+
+   <script>  //toimii, täytyy vaan aina muokata mikä on viimeisin sivu
+    var lastPage=4;
+    for(let i=0;i<10;i++){
+      console.log("loop "+i);
+      if(lastPage-i>0){
+        console.log("trying to append /posts/post"+(lastPage-i)+".html .blog")
+        $("#container").append($('<div></div>').load("/posts/post"+(lastPage-i)+".html .blog", function(){}));
+      }
+    }
+
+
+   </script>
+
+
+
     <script>
+      /* Muuten hyvä muttei toimi online
       pages=[];
       $.when(
         $.ajax({
@@ -94,13 +111,13 @@
 
         $.each(pages,function(index,value){
           console.log("slot "+index+", is "+value);
-          $("#container").prepend($('<div></div>').load(value +" .blog", function(){}));
+          //$("#container").prepend($('<div></div>').load(value +" .blog", function(){}));
         });
 
         
         //$("#container").prepend($('<div></div>').load($(this).attr("href") +" .blog", function(){}));
       });
-
+      */
       </script>
   
       <script>
