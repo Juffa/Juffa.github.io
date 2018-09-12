@@ -28,27 +28,50 @@
               <div class="card-body d-flex flex-column align-items-start">
                 <strong class="d-inline-block mb-2 text-primary">web pages</strong>
                 <h3 class="mb-0">
-                  <a class="text-white" href="#">Second post</a>
+                  <a class="text-white" href="#">Third post</a>
                 </h3>
-                <div class="mb-1 text-muted">Aug 30</div>
-                <p class="card-text mb-auto">Second post something is working, something isn't and something works wrong.</p>
+                <div class="mb-1 text-muted">Sep 13</div>
+                <p class="card-text mb-auto">Third post, misadventures in javascript</p>
                 <a class="" href="#" id="blogtextbutton" data-toggle="collapse" data-parent="#container #blog" data-target="#blogtext" aria-expanded="true">Continue reading</a>
 
 
                 <div class="container collapse blogtext" id="blogtext">
-                  <p class="card-text mb-auto">Ugh, I lost almost 2 weeks, and I thought that it was only couple of days. I just didn't feel like doing anything about the blog project.
-                      Why? Because stuff just didn't work. Yeah so it turns out I need Ajax, but after banging my head to the wall for a while,
-                      I just didn't want to think about it any more. But now I'm at it again and figured out that the jquery link that comes with bootstrap didn't support ajax???
-                      One from googleapis works. Yeah FUN FUN FUN, the test code worked after all but how could I know what to choose when there is multiple 
-                      versions of everything related to javascript? Seriously someone should sort it out.
+                  <p class="card-text mb-auto">I've been banging my head into javascript, and finally I thought I got it right.. but turns out I didn't.
+                    The clever ajax script that was supposed to read file names from the server, so that I wouldn't have to "know" what or how many files there are... 
+                    It doesn't work online. It does work, but only in my test environment. Isn't it fun when security features block your "clever" scripts?
+                    I dont want to have to adjust the file numbers into index.html when I add another "blog post"
+                    Could I brute-force it? Like, test if file number 20 exists, if not, then test file number 10, if yes, then file 15, if not then 13 etc etc.
+                    And then load the elements from the files. A friend of mine suggested writing a script for uploading the pages, and that script would modify the values.
+                    I may have to look into that. For now I'll just adjust the number by hand.
                   </p>
                   <p class="card-text mb-auto">
-                      Anyway, I have no idea how things like this are supposed to be done, I'm likely trying to invent the wheel again, as how it is with everything, always.
-                      So, I have this one page that holds everything else except the content itself, and then the content goes into separate pages which are loaded into this one with jquery.
-                      
+                      For now I need more "blog posts" to test the code. Every post has identical id's in elements and they need to be changed when they are loaded.
+                      Of course this could be changed also by the script that would upload the pages.
                   </p>
-
-
+                  <p class="card-text mb-auto">
+                    <code>
+                    
+                      pages=[];<br>
+                      $.when(<br>
+                        $.ajax({<br>
+                          url:"/posts/",<br>
+                          success: function(data){<br>
+                              $(data).find("a:contains(.html)").each(function(){<br>
+                                pages.push($(this).attr("href"));<br>
+                              });<br>
+                              }<br>
+                            })<br>
+                            <br>
+                          ).then(function(){<br>
+                            $.each(pages,function(index,value){<br>
+                              $("#container").prepend($('<div></div>').load(value +" .blog", function(){}));<br>
+                            });<br>
+                          });<br>
+                          <br>
+                        
+                  </p>
+                
+                    </code>
                 </div>
 
               </div>

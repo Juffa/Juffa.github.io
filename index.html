@@ -76,17 +76,28 @@
     
     
 
+
+
+
+
+
    <script>  //toimii, täytyy vaan aina muokata mikä on viimeisin sivu
-    var lastPage=4;
+    var lastPage=3;
     for(let i=0;i<10;i++){
       console.log("loop "+i);
       if(lastPage-i>0){
         console.log("trying to append /posts/post"+(lastPage-i)+".html .blog")
-        $("#container").append($('<div></div>').load("/posts/post"+(lastPage-i)+".html .blog", function(){}));
+        $("#container").append($('<div></div>').load("/posts/post"+(lastPage-i)+".html .blog", function(){
+          console.log($(this));
+          
+          $(this).find("#blog").prop("id","blog"+(lastPage-i));
+          $(this).find("#blogtext").prop("id","blogtext"+(lastPage-i));
+          $(this).find("#blogtextbutton").attr("data-target","#blogtext"+(lastPage-i));
+          $(this).find("#blogtextbutton").attr("data-parent","#container #blog"+(lastPage-i));
+          
+        }));
       }
     }
-
-
    </script>
 
 
