@@ -82,106 +82,40 @@
 
 
    <script>  //toimii, täytyy vaan aina muokata mikä on viimeisin sivu
-    var lastPage=3;
+    var lastPage=4;
     for(let i=0;i<10;i++){
-      console.log("loop "+i);
+      //console.log("loop "+i);
       if(lastPage-i>0){
-        console.log("trying to append /posts/post"+(lastPage-i)+".html .blog")
+        //console.log("trying to append /posts/post"+(lastPage-i)+".html .blog")
         $("#container").append($('<div></div>').load("/posts/post"+(lastPage-i)+".html .blog", function(){
-          console.log($(this));
+          //console.log($(this));
           
           $(this).find("#blog").prop("id","blog"+(lastPage-i));
           $(this).find("#blogtext").prop("id","blogtext"+(lastPage-i));
-          $(this).find("#blogtextbutton").attr("data-target","#blogtext"+(lastPage-i));
-          $(this).find("#blogtextbutton").attr("data-parent","#container #blog"+(lastPage-i));
+          $(this).find("#blogTextButton").attr("data-target","#blogtext"+(lastPage-i));
+          $(this).find("#blogTextButton").attr("data-parent","#container #blog"+(lastPage-i));
+          $(this).find("#blogTextCloseButton").attr("data-target","#blogtext"+(lastPage-i));
+          $(this).find("#blogtextClosebutton").attr("data-parent","#container #blog"+(lastPage-i));
           
         }));
       }
     }
+
    </script>
-
-
-
-    <script>
-      /* Muuten hyvä muttei toimi online
-      pages=[];
-      $.when(
-        $.ajax({
-          url:"/posts/",
-          success: function(data){
-          $(data).find("a:contains(.html)").each(function(){
-            pages.push($(this).attr("href"));
-          });
-          }
-        })
-
-      ).then(function(){
-        console.log(pages);
-        console.log(pages.length);
-        console.log(pages[0]+", "+pages[1]+", "+pages[3]);
-
-        $.each(pages,function(index,value){
-          console.log("slot "+index+", is "+value);
-          //$("#container").prepend($('<div></div>').load(value +" .blog", function(){}));
-        });
-
-        
-        //$("#container").prepend($('<div></div>').load($(this).attr("href") +" .blog", function(){}));
-      });
-      */
-      </script>
-  
-      <script>
-
-      /*
-         var pagenum=1;
-         var postsPerPage=10;
-         var posts=[];
-         var totalPosts=1;
-
-
-
-         for(i=1;i<postsPerPage;i++){
-            console.log("loop "+i);
-            var $div=$('<div id='+i+'>');
-            $div.load("post"+i+".html .blog", function(responseTxt, statusTxt, xhr){
-              if(statusTxt=="success")
-                console.log("blog"+i+"found");
-                posts.push($div);
-
-                
-                $("#blog").prop("id","blog"+i);
-                document.getElementById("blogtextbutton").dataset.target="#blogtext"+i;
-                //vielä sama id blogtextbuttoneissa
-                $("#blogtext").prop("id","blogtext"+i);
-                console.log($(this));
-              if(statusTxt=="error")
-                console.log("Error: " + xhr.status + ": " + xhr.statusText+" blog"+i+"");
-                
-            });
-
-            */
-
-            /*
-            $("#container").prepend($('<div></div>').load("post"+i+".html .blog", function(responseTxt, statusTxt, xhr){
-                
-            if(statusTxt == "success")
-            console.log("blog"+i+".html found? seriously?");
-            if(statusTxt == "error")
-            console.log("Error: " + xhr.status + ": " + xhr.statusText+" blog"+i+"");
-            }));
-            */
-           //}
-
-
-          </script>
 
     
     <script>
-        function hideBlog(){
-        $('.blogtext').show();
+      /*
+      $('.closeText').hide();
+        function hideText(){
+
+          }
+
+
+        $('.viewText').show();
+        */
         //$('#container').find(":not(.blog)").hide();
-        }
+        //}
     </script>
 
 

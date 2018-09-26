@@ -26,55 +26,32 @@
           <div class="col-md-12 blog eng" id="blog">
             <div class="card flex-md-row mb-4 shadow-sm h-md-250 text-white bg-dark">
               <div class="card-body d-flex flex-column align-items-start">
-                <strong class="d-inline-block mb-2 text-primary">web pages</strong>
+                <strong class="d-inline-block mb-2 text-primary">Unity and stuff</strong>
                 <h3 class="mb-0">
-                  <a class="text-white" href="#">Third post</a>
+                  <a class="text-white" href="#">Trying to learn Unity</a>
                 </h3>
-                <div class="mb-1 text-muted">Sep 13</div>
-                <p class="mb-auto lead">Third post, misadventures in javascript</p>
+                <div class="mb-1 text-muted">Sep 26</div>
+                <p class="mb-auto lead">Got a "600$" Unity tutorial with 12€ humblebundle so now I'm trying learn Unity</p>
                 <a class="" href="#" id="blogTextButton" data-toggle="collapse" data-parent="#blog" data-target="#blogtext" aria-expanded="true">
                   Read
                 </a>
 
 
                 <div class="container collapse blogtext" id="blogtext">
-                  <p class="mb-auto">I've been banging my head into javascript, and finally I thought I got it right.. but turns out I didn't.
-                    The clever ajax script that was supposed to read file names from the server, so that I wouldn't have to "know" what or how many files there are... 
-                    It doesn't work online. It does work, but only in my test environment. Isn't it fun when security features block your "clever" scripts?
-                    I dont want to have to adjust the file numbers into index.html when I add another "blog post".<br>
-                    Could I brute-force it? Like, test if file number 20 exists, if not, then test file number 10, if yes, then file 15, if not then 13 etc etc.
-                    And then load the elements from the files. A friend of mine suggested writing a script for uploading the pages, and that script would modify the values.
-                    I may have to look into that. For now I'll just adjust the number by hand.
+                  <p class="mb-auto">
+                      Yeah so at first it seemed difficult since nothing worked like I imagined, but after all it was just not knowing where to click to get things done.
+                      The c# scripts that are used to control things seem to have really similar structure as arduino code has, like as arduino has setup and loop, unity c# has startup and update.
+                      There's a lot to learn before I can get anything actually done with the unity though.
                   </p>
-                  <p class="card-text mb-auto">
-                      For now I need more "blog posts" to test the code. Every post has identical id's in elements and they need to be changed when they are loaded.
-                      Of course this could be changed also by the script that would upload the pages.
+                  <br>
+                  <p>
+                      And I'm still trying to make this "blog" website of my own. Now that I've got it working somewhat as I wanted, I've started to doubt myself that if it's good at all.<br>
+                      Do I want to make finnish translations? I'd have to figure out how to toggle them... And how to save the preference? Cookies? I'm not sure I want to go there.
+                      All the websites now have the alert that they are using cookies and they have to be accepted. Would I have to do that too?<br>
+                      I'm still also trying to decide what to do when there are too many post to show on one page. How many is too many, 10? I don't know.
+
                   </p>
-                  <p class="card-text mb-auto">
-                    The script that "almost" worked was like this:
-                    
-                    <pre class="text-danger">
-                      
-    
-      pages=[];
-      $.when(
-        $.ajax({
-          url:"/posts/",
-          success: function(data){
-            $(data).find("a:contains(.html)").each(function(){
-              pages.push($(this).attr("href"));
-            });
-          }
-        })
-      ).then(function(){
-        $.each(pages,function(index,value){
-          $("#container").prepend($("&lt;div&gt;&lt;/div&gt;").load(value +" .blog", function(){}));
-        });
-      });
-        
-                      </pre>
-                      
-                  </p>
+                  
                 
                 <a class="" href="#" id="blogTextCloseButton" data-toggle="collapse" data-parent="#blog" data-target="#blogtext" aria-expanded="true">Close</a>
                 </div> <!--container ends-->
