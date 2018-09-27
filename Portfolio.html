@@ -17,81 +17,116 @@
 
   <body>
 
-    <header>
-      <div class="collapse bg-dark" id="navbarHeader">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">Portfolio? Blog?</h4>
-              <p class="text-muted">So, this is it. I'm finally trying to put something together. It is a daunting task but it needs to be done. I'd want it to be automatically sorting and have options to show certain type of stuff with a click of a mouse. I have no idea how to do it, and I'd hate it if I had to manually do things when adding a new entry.</p>
-            </div>
-            <div class="col-sm-4 offset-md-1 py-4">
-              <h4 class="text-white">Contact</h4>
-              <ul class="list-unstyled">
-                <li><a href="https://twitter.com/Jkk_79" class="text-white">Twitter</a></li>
-                <li><a href="https://www.flickr.com/photos/jkk79/" class="text-white">Flickr</a></li>
-                <li><a href="mailto:jkk79.jee@gmail.com" class="text-white">Email</a></li>
-              </ul>
+      <header class="fixed-top">
+          <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                  <h4 class="text-white">Portfolio? Blog?</h4>
+                  <p class="text-muted">So, this is it. I'm finally trying to put something together. It is a daunting task but it needs to be done. I'm not expecting anyone to read this, it's just more like a diary sort of thing and learning experience.</p>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                  <h4 class="text-white">More stuff</h4>
+                  <ul class="list-unstyled">
+                    <li><a href="about.html" class="text-white">About me</a></li>
+                    <li><a href="https://twitter.com/Jkk_79" class="text-white">Twitter... Though I rarely use it</a></li>
+                    <li><a href="https://www.flickr.com/photos/jkk79/" class="text-white">Some photos on Flickr</a></li>
+ 
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="navbar navbar-dark bg-dark shadow-sm">
-        <div class="container d-flex justify-content-between">
-          <a href="index.html" class="navbar-brand d-flex align-items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-            <strong>Album</strong>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-    </header>
+          <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between">
+              <a href="/" class="navbar-brand d-flex align-items-center">
+                <strong>JK</strong>
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+           </div>
+        </header>
 
-    <main role="main">
+    <main class="container" role="main">
 
-      <section class="jumbotron text-center">
+      <section class="jumbotron text-center bg-dark">
         <div class="container">
-          <h1 class="jumbotron-heading">Juha's stuff</h1>
-          <p class="lead text-muted">So here's some things I've been working on</p>
-          <p>
-            <a href="#" class="btn btn-primary my-2">Main call to action</a>
-            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-          </p>
+          <h1 class="jumbotron-heading text-white">Portfolio</h1>
+          <p class="lead text-muted">Because I don't really like CV's</p>
+          <small class="text-muted">Work in progress...</small>
+
         </div>
       </section>
 
-      <div class="album py-5 bg-light">
+      <div class="album py-5 bg-dark">
         <div class="container">
 
           <div class="row">
+            
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/rotator1.jpg" alt="Card image cap">
+                <div class="card-body bg-dark">
+                  <p class="lead text-white">Combined project: A Camera rotator</p>
+                  <p class="card-text text-white">Or motorized arduino-controlled panoramic tripod head. Can be used to 
+                    take full 360x180 degree photosphere images with a heavy dslr camera.
+
+                  </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                     </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
             </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/green_death.jpg" alt="Card image cap">
+                  <div class="card-body bg-dark">
+                    <p class="lead text-white">Blender project: Green Death</p>
+                    <p class="card-text text-white">This is a weapon I drew for a friend's card game project, it's based on description of a certain weapon in Batmud.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/sword_of_wonders.jpg" alt="Card image cap">
+                    <div class="card-body bg-dark">
+                      <p class="lead text-white">Blender project: Sword of Wonders</p>
+                      <p class="card-text text-white">This is a weapon I drew for a friend's card game project, it's based on description of a certain weapon in Batmud.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+    
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/barb_mace.jpg" alt="Card image cap">
+                <div class="card-body bg-dark">
+                  <p class="lead text-white">Blender project: Mace of Barbarian lords</p>
+                  <p class="card-text text-white">This is a weapon I drew for a friend's card game project, it's based on description of a certain weapon in Batmud.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+
                     </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
@@ -100,15 +135,15 @@
 
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/kprurian.jpg" alt="Card image cap">
+                <div class="card-body bg-dark">
+                  <p class="lead text-white">Blender project: K'prurian, battle mace</p>
+                  <p class="card-text text-white">This is a weapon I drew for a friend's card game project, it's based on description of a certain weapon in Batmud.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+
                     </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
@@ -116,34 +151,119 @@
 
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/kraftigar.jpg" alt="Card image cap">
+                <div class="card-body bg-dark">
+                  <p class="lead text-white">Blender project: Kraftigar</p>
+                  <p class="card-text text-white">This is a weapon I drew for a friend's card game project, it's based on description of a certain weapon in Batmud.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+
                     </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
             </div>
+
             <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                <div class="card mb-4 shadow-sm">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/ruby_long_spear.jpg" alt="Card image cap">
+                  <div class="card-body bg-dark">
+                    <p class="lead text-white">Blender project: Ruby long spear</p>
+                    <p class="card-text text-white">This is a weapon I drew for a friend's card game project, it's based on description of a certain weapon in Batmud. 2 different versions.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+  
+                      </div>
                     </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
-            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                  <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/maul.jpg" alt="Card image cap">
+                  <div class="card-body bg-dark">
+                    <p class="lead text-white">Blender project: The HUGE (undead) crushing maul</p>
+                    <p class="card-text text-white">This is a weapon I drew for a friend's card game project, it's based on description of a certain weapon in Batmud.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/voulge.jpg" alt="Card image cap">
+                    <div class="card-body bg-dark">
+                      <p class="lead text-white">Blender project: Hot crystal voulge of DOOM</p>
+                      <p class="card-text text-white">This is a weapon I drew for a friend's card game project, it's based on description of a certain weapon in Batmud. 2 different versions.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+    
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                      <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/sizzling_katana.jpg" alt="Card image cap">
+                      <div class="card-body bg-dark">
+                        <p class="lead text-white">Blender project: Sizzling Katana</p>
+                        <p class="card-text text-white">This is a weapon I drew for a friend's card game project, it's based on description of a certain weapon in Batmud.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+      
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                      <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/nallepuhmukit.jpg" alt="Card image cap">
+                        <div class="card-body bg-dark">
+                          <p class="lead text-white">Blender project: Winnie the pooh mugs</p>
+                          <p class="card-text text-white">I wanted to make a copy of a mug I have. The table is really quick job though.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                              <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+        
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                          <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/omppu2.jpg" alt="Card image cap">
+                          <div class="card-body bg-dark">
+                            <p class="lead text-white">Blender project: An apple</p>
+                            <p class="card-text text-white">I used an apple-shaped kitchen timer as a model. This render is made with metal material and a 360 panorama image as a light source.
+                              The panorama is not perfect because I took the shots freehand, but it still works quite well as a light source for rendering.
+                               </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+          
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+  
+
           </div>
         </div>
       </div>
@@ -155,8 +275,6 @@
         <p class="float-right">
           <a href="#">Back to top</a>
         </p>
-        <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-        <p>New to Bootstrap? <a href="../../">Visit the homepage</a> or read our <a href="../../getting-started/">getting started guide</a>.</p>
       </div>
     </footer>
 
