@@ -32,6 +32,7 @@
                <div class="col-sm-4 offset-md-1 py-4">
                  <h4 class="text-white">More stuff</h4>
                  <ul class="list-unstyled">
+                    <li><a href="../index.html" class="text-white">Back to start</a></li>
                    <li><a href="../Portfolio.html" class="text-white">Portfolio</a></li>
                    <li><a href="../about.html" class="text-white">About me</a></li>
                    <li><a href="https://twitter.com/Jkk_79" class="text-white">Twitter... Though I rarely use it</a></li>
@@ -54,11 +55,13 @@
           </div>
        </header>
 
+      
        <div class="container" id="container">
+         
 
        </div><!--/container-->
       
-
+       
      <footer class="blog-footer">
 
      </footer>
@@ -81,35 +84,33 @@
 
 
 
-   <script>  //toimii, täytyy vaan aina muokata mikä on viimeisin sivu
+   <script>  
+    //Working, but have to manually change the number of pages :(
     var lastPage=4;
+    //Have to think this over when there are more than 10 posts
     for(let i=0;i<10;i++){
-      //console.log("loop "+i);
+      //
       if(lastPage-i>0){
-        //console.log("trying to append /posts/post"+(lastPage-i)+".html .blog")
-        $("#container").append($('<div></div>').load("/posts/post"+(lastPage-i)+".html .blog", function(){
-          //console.log($(this));
-          
-          $(this).find("#blog").prop("id","blog"+(lastPage-i));
-          $(this).find("#blogtext").prop("id","blogtext"+(lastPage-i));
-          $(this).find("#blogTextButton").attr("data-target","#blogtext"+(lastPage-i));
-          $(this).find("#blogTextButton").attr("data-parent","#container #blog"+(lastPage-i));
-          $(this).find("#blogTextCloseButton").attr("data-target","#blogtext"+(lastPage-i));
-          $(this).find("#blogtextClosebutton").attr("data-parent","#container #blog"+(lastPage-i));
-          
+
+        //Create a new div element into #container and append the contents from the target file
+        $("#container").append($('<div class="row blog" id="blog'+(lastPage-i)+'"></div>').load("/posts/post"+(lastPage-i)+".html .blog", function(){
+        //Remove the now unnecessary id from the element
+        $(this).find("#blog").prop("id","");
+        //Add a close button to the end:
+        $(this).find("#blogtext").append('<a href="../" id="blogTextCloseButton'+(lastPage-i)+'" data-toggle="collapse" data-parent="#container #blog'+(lastPage-i)+'" data-target="#blogtext'+(lastPage-i)+'">Close</a>');
+        //Change the id into unique id
+        $(this).find("#blogtext").prop("id","blogtext"+(lastPage-i));
+        //Change the data-target so it matches the new id
+        $(this).find("#blogTextButton").attr("data-target","#blogtext"+(lastPage-i));
+        //Change the data-parent so it matches the new id  
+        $(this).find("#blogTextButton").attr("data-parent","#container #blog"+(lastPage-i));
         }));
       }
     }
-
    </script>
-    <script>
-      function changePadding(){
-
-      }
-
-    </script>
     
     <script>
+      //Some unneeded things but I dont want to lose them
       /*
       $('.closeText').hide();
         function hideText(){

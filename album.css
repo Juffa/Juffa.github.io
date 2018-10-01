@@ -40,6 +40,20 @@ footer p {
   margin-bottom: .25rem;
 }
 body { padding-top: 60px; }
+
+a:link{
+  color:white;
+  text-decoration:none;
+}
+a:visited{
+  color:white;
+  text-decoration:none;
+}
+a:hover{
+  color:rgb(185, 185, 185);
+  text-decoration:none;
+}
+
 /*@media screen and (max-width: 768px) {
     body { padding-top: 0px; }
 }*/
