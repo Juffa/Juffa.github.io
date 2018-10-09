@@ -21,11 +21,11 @@
      
         </header>
 
-    <main class="container">
+    <main class="container-fluid">
             
-      <section class="jumbotron bg-dark mb-1">
+      <section class="jumbotron-fluid bg-dark mb-1" id="jCollapse">
             <a href="../Portfolio.html" class="text-right">&lt;--Back to Portfolio</a>
-        <div class="container">
+        <div class="container-fluid">
           <h1 class="jumbotron-heading text-center text-white">Fantasy weapons</h1>
           <p class="lead text-center text-muted">Juha Kaikko</p>
           <p class="text-center text-muted">A friend of mine asked me to draw some fantasy weapons for his BatMud -themed card game project.
@@ -35,17 +35,16 @@
       </section>
 
       <div class="album py-5 bg-dark">
-        <div class="container">
+        <div class="container-fluid">
 
-            <div class="row">
+            <div class="row" id="row">
 
-                <div class="col-md-4">
+                <div class="col-md-4 weaponCard" id="greenDeath">
                     <div class="card mb-4 shadow-sm">
                         <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/green_death.jpg" alt="Card image cap">
                         <div class="card-body bg-dark">
                             
-                            <a class="lead" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#greenDeathText" aria-expanded="true">The sabre 'green death'</a>
-
+                            <a class="lead" onclick="jCollapse('#greenDeath')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#greenDeathText" aria-expanded="true">The sabre 'green death'</a>
                             <div class="collapse" id="greenDeathText">
                                 <p class="card-text text-white">
                                     <small>
@@ -62,16 +61,17 @@
                                     The weapon type is a sabre, not a cutlass or anything else, so I think it needs to look like a sabre.<br>
                                     It ended looking like an actual weapon, although green.
                                 </p>
+                                <a class="lead" onclick="jCollapse('#greenDeath')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#greenDeathText" aria-expanded="true">Close</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 weaponCard" id="sizzlingKatana">
                     <div class="card mb-4 shadow-sm">
                         <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/sizzling_katana.jpg" alt="Card image cap">
                         <div class="card-body bg-dark">
-                            <a class="lead" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#sizzlingKatanaText" aria-expanded="true">A Sizzling Katana</a>
+                            <a class="lead" onclick="jCollapse('#sizzlingKatana')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#sizzlingKatanaText" aria-expanded="true">A Sizzling Katana</a>
 
                             <div class="collapse" id="sizzlingKatanaText">
                                 <p class="card-text text-white">
@@ -79,7 +79,7 @@
                                         Description: "This blade radiates hatred. Legend says it was forged by Satan himself for his mightiest lieutenant. 
                                         Daemonus is an intelligent blade , you can feel its malice run up your arm as you examine its flickering red blade. 
                                         The grip is wrapped in dragon hide with a moving pattern."<br>
-                                        <br>Additional description: "Välkehtiväteräinen japanilainen katana-miekka.<br>
+                                        <br>Additional description: "Välkehtiväteräinen japanilainen katana-miekka."<br>
                                     </small>
                                 </p>
                                 <p class="card-text text-white">
@@ -87,16 +87,17 @@
                                     The blade is made out of diamond in the game, but the whole sword can't be made out of one material, and it didn't look good transparent anyway.<br>
                                     I added some filters with voronoi texture to the blade to give it a flickering red pattern.
                                 </p>
+                                <a class="lead" onclick="jCollapse('#sizzlingKatana')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#sizzlingKatanaText" aria-expanded="true">Close</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 weaponCard" id="swordOfWonders">
                     <div class="card mb-4 shadow-sm">
                         <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/sword_of_wonders.jpg" alt="Card image cap">
                         <div class="card-body bg-dark">
-                            <a class="lead" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#swordOfWondersText" aria-expanded="true">Sword of Wonders</a>
+                            <a class="lead" onclick="jCollapse('#swordOfWonders')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#swordOfWondersText" aria-expanded="true">Sword of Wonders</a>
 
                             <div class="collapse" id="swordOfWondersText">
                                 <p class="card-text text-white">
@@ -114,6 +115,8 @@
                                     As the pommel is supposed to be extra special, I went with some glow-in-dark specials in it, but... 
                                     description says it's dull grey, so it's unnoticeable in the final render.
                                 </p>
+                                <a class="lead" onclick="jCollapse('#swordOfWonders')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#swordOfWondersText" aria-expanded="true">Close</a>
+
                             </div>
                         </div>
                     </div>
@@ -123,11 +126,11 @@
 
             <div class="row">
                 
-                <div class="col-md-4">
+                <div class="col-md-4 weaponCard" id="barbMace">
                     <div class="card mb-4 shadow-sm">
                         <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/barb_mace.jpg" alt="Card image cap">
                         <div class="card-body bg-dark">
-                            <a class="lead" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#maceOfBarbarianLordsText" aria-expanded="true">Mace of Barbarian Lords</a>
+                            <a class="lead" onclick="jCollapse('#barbMace')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#maceOfBarbarianLordsText" aria-expanded="true">Mace of Barbarian Lords</a>
                             <div class="collapse" id="maceOfBarbarianLordsText">
                                 <p class="card-text text-white">
                                     <small>
@@ -140,18 +143,18 @@
                                 <p class="card-text text-white">
                                     This was a bit difficult to approach at first since the description is so vague, but then I finally had this idea and added things that are not in the description.<br>
                                     I think it ended up being the best of them all.
-
                                 </p>
+                                <a class="lead" onclick="jCollapse('#barbMace')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#maceOfBarbarianLordsText" aria-expanded="true">Close</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 weaponCard" id="kprurian">
                     <div class="card mb-4 shadow-sm">
                         <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/kprurian.jpg" alt="Card image cap">
                         <div class="card-body bg-dark">
-                            <a class="lead" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#kprurianText" aria-expanded="true">K’prurian, battle mace</a>
+                            <a class="lead" onclick="jCollapse('#kprurian')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#kprurianText" aria-expanded="true">K’prurian, battle mace</a>
                             <div class="collapse" id="kprurianText">
                                 <p class="card-text text-white">
                                     <small>
@@ -164,16 +167,17 @@
                                     The design is somewhat copied from an low resolution image I was provided with.<br>
                                     Personally I dont think that the shaft is very sturdy since it's made of wood, but... Yeah another magical weapon.
                                 </p>
+                                <a class="lead" onclick="jCollapse('#kprurian')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#kprurianText" aria-expanded="true">Close</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 weaponCard" id="maul">
                     <div class="card mb-4 shadow-sm">
                         <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/maul.jpg" alt="Card image cap">
                         <div class="card-body bg-dark">
-                            <a class="lead" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#theHugeUndeadCrushingMaulText" aria-expanded="true">The HUGE (undead) crushing maul</a>
+                            <a class="lead" onclick="jCollapse('#maul')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#theHugeUndeadCrushingMaulText" aria-expanded="true">The HUGE (undead) crushing maul</a>
                             <div class="collapse" id="theHugeUndeadCrushingMaulText">
                                 <p class="card-text text-white">
                                     <small>
@@ -187,16 +191,17 @@
                                     I added a steel shaft and the counterweight even if they weren't in the description.<br>
                                     I think it turned out pretty good.
                                 </p>
+                                <a class="lead" onclick="jCollapse('#maul')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#theHugeUndeadCrushingMaulText" aria-expanded="true">Close</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 weaponCard" id="voulge">
                     <div class="card mb-4 shadow-sm">
                         <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/voulge.jpg" alt="Card image cap">
                         <div class="card-body bg-dark">
-                            <a class="lead" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#hotCrystalVoulgeOfDoomText" aria-expanded="true">Hot crystal voulge of DOOM</a>
+                            <a class="lead" onclick="jCollapse('#voulge')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#hotCrystalVoulgeOfDoomText" aria-expanded="true">Hot crystal voulge of DOOM</a>
                             <div class="collapse" id="hotCrystalVoulgeOfDoomText">
                                 <p class="card-text text-white">
                                     <small>
@@ -213,17 +218,17 @@
                                     where the blade is not on top of a pole but attached to the side. Sometimes they have a pointy tip but sometimes they don't.<br>
                                     Hardest part in designing this was figuring out how the blade is attached to the shaft.
                                 </p>
-                                
+                                <a class="lead" onclick="jCollapse('#voulge')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#hotCrystalVoulgeOfDoomText" aria-expanded="true">Close</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 weaponCard" id="kraftigar">
                     <div class="card mb-4 shadow-sm">
                         <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/kraftigar.jpg" alt="Card image cap">
                         <div class="card-body bg-dark">
-                            <a class="lead" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#kraftigarText" aria-expanded="true">Kraftigar, trident of darkness</a>
+                            <a class="lead" onclick="jCollapse('#kraftigar')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#kraftigarText" aria-expanded="true">Kraftigar, trident of darkness</a>
                             <div class="collapse" id="kraftigarText">
                                 <p class="card-text text-white">
                                     <small>
@@ -236,18 +241,18 @@
                                     I tried some colors but the white was only one that really seemed to work, though it wouldn't stay white for long in use.<br>
                                     BUT it's a magical LAEN (a type of glass) weapon which never breaks or gets dirty.<br>
                                     The weapon type is a trident, but who says that all the prongs have to be in line? So I made the head into this 3-dimensional shape.
-
                                 </p>
+                                <a class="lead" onclick="jCollapse('#kraftigar')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#kraftigarText" aria-expanded="true">Close</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 weaponCard" id="spear">
                     <div class="card mb-4 shadow-sm">
                         <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" src="/portfolio/ruby_long_spear.jpg" alt="Card image cap">
                         <div class="card-body bg-dark">
-                            <a class="lead" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#rubyLongSpearText" aria-expanded="true">Ruby long spear<br><small class="text-muted">(Two different versions to choose from)</small></a>
+                            <a class="lead" onclick="jCollapse('#spear')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#rubyLongSpearText" aria-expanded="true">Ruby long spear<br><small class="text-muted">(Two different versions to choose from)</small></a>
                             <div class="collapse" id="rubyLongSpearText">
                                 <p class="card-text text-white">
                                     <small class="text-muted">(And I'm still not happy with it.)</small><br>
@@ -265,6 +270,7 @@
                                     I had to make the shaft much thicker, but if it too thick it becomes unwieldy... <br><br>
                                     The whole thing ended up looking like a staff.
                                 </p>
+                                <a class="lead" onclick="jCollapse('#spear')" href="#" data-toggle="collapse" data-parent=".card-body" data-target="#rubyLongSpearText" aria-expanded="true">Close</a>
                             </div>
                         </div>
                     </div>
@@ -277,7 +283,7 @@
     </main>
 
     <footer class="text-muted">
-      <div class="container">
+      <div class="container-fluid">
             <a href="../Portfolio.html">&lt;--Back to Portfolio</a>
         <p class="float-right">
           <a href="#">Back to top</a><br>
@@ -297,7 +303,24 @@
   <script>
       //$("body").prepend($('<header>').load("../index.html #header", function(){}));
         $("#header").load("../index.html #header > *");
-        console.log("trying to load header");
+        //console.log("trying to load header");
+  </script>
+  <script>
+      function jCollapse(joo){
+        if($('#header').is(":visible")){
+            $('#header').hide();
+            $('.jumbotron-fluid').hide();
+            $('.weaponCard').not(joo).hide();
+            $(joo).removeClass("col-md-4");
+            $(joo).addClass("col-md-12");
+        }else{
+            $('#header').show();
+            $('.jumbotron-fluid').show();
+            $(joo).removeClass("col-md-12");
+            $(joo).addClass("col-md-4");
+            $('.weaponCard').not(joo).show();
+        }
+      }
   </script>
 
   </body>

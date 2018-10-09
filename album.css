@@ -24,9 +24,25 @@
 }
 
 .jumbotron .container {
-  max-width: 40rem;
+  max-width: 60rem;
 }
 
+/*
+@media only screen and (min-width:1300px){
+  .container .jumbotron{
+    width:1300px;
+  }
+  .album{
+    width:1300px;
+  }
+}
+*/
+.container-fluid{
+  max-width: 1400px;
+}
+.jumbotron-fluid{
+  padding-bottom:20px;
+}
 body{
   background-color: #222222;
 }
@@ -53,6 +69,7 @@ a:hover{
   color:rgb(185, 185, 185);
   text-decoration:none;
 }
+
 
 /*@media screen and (max-width: 768px) {
     body { padding-top: 0px; }

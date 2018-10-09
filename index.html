@@ -56,7 +56,7 @@
        </header>
 
       
-       <div class="container" id="container">
+       <div class="container-fluid" id="container">
          
 
        </div><!--/container-->
@@ -86,7 +86,7 @@
 
    <script>  
     //Working, but have to manually change the number of pages :(
-    var lastPage=4;
+    var lastPage=6;
     //Have to think this over when there are more than 10 posts
     for(let i=0;i<10;i++){
       //
@@ -94,12 +94,17 @@
 
         //Create a new div element into #container and append the contents from the target file
         $("#container").append($('<div class="row blog" id="blog'+(lastPage-i)+'"></div>').load("/posts/post"+(lastPage-i)+".html .blog", function(){
+       
+        //Remove the now unncessary class from the element, we added the class to the element where we applied the content in
+        $(this).find("#blog").removeClass("blog");
         //Remove the now unnecessary id from the element
         $(this).find("#blog").prop("id","");
         //Add a close button to the end:
-        $(this).find("#blogtext").append('<a href="../" id="blogTextCloseButton'+(lastPage-i)+'" data-toggle="collapse" data-parent="#container #blog'+(lastPage-i)+'" data-target="#blogtext'+(lastPage-i)+'">Close</a>');
+        $(this).find("#blogtext").append('<a href="../" id="blogTextCloseButton'+(lastPage-i)+'" data-toggle="collapse" data-parent="#container #blog'+(lastPage-i)+'" data-target="#blogtext'+(lastPage-i)+'" onclick="jCollapse(\'#blog'+(lastPage-i)+'\')" >Close</a>');
         //Change the id into unique id
         $(this).find("#blogtext").prop("id","blogtext"+(lastPage-i));
+        //Add the onClick component to the button
+        $(this).find("#blogTextButton").attr("onClick","jCollapse('#blog"+(lastPage-i)+"')");
         //Change the data-target so it matches the new id
         $(this).find("#blogTextButton").attr("data-target","#blogtext"+(lastPage-i));
         //Change the data-parent so it matches the new id  
@@ -108,6 +113,21 @@
       }
     }
    </script>
+
+<script>
+  var hideThem=false;
+  function jCollapse(joo){
+
+    if(!hideThem){
+        $('.blog').not(joo).hide();
+        hideThem=true;
+    }else{
+        $('.blog').not(joo).show();
+        hideThem=false;
+    }
+   
+  }
+</script>
     
     <script>
       //Some unneeded things but I dont want to lose them
