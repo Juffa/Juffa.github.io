@@ -23,23 +23,40 @@
 
     
        <header class="fixed-top" id="header">
+
          <div class="collapse bg-dark" id="navbarHeader">
            <div class="container">
              <div class="row">
-               <div class="col-sm-8 col-md-7 py-4">
-                 <h4 class="text-white">Portfolio? Blog?</h4>
-                 <p class="text-muted">So, this is it. I'm finally trying to put something together. It is a daunting task but it needs to be done. I'm not expecting anyone to read this, it's just more like a diary sort of thing and learning experience.</p>
+               <div class="col-sm-8 col-md-7 py-4 eng">
+                 <h4 class="text-white ">Portfolio? Blog?</h4>
+                 <p class="text-muted ">So, this is it. I'm finally trying to put something together. It is a daunting task but it needs to be done. I'm not expecting anyone to read this, it's just more like a diary sort of thing and learning experience.</p>
                </div>
-               <div class="col-sm-4 offset-md-1 py-4">
-                 <h4 class="text-white">More stuff</h4>
+               <div class="col-sm-8 col-md-7 py-4 fin">
+                  <h4 class="text-white ">Portfolio? Blogi?</h4>
+                  <p class="text-muted ">Näillä sivuilla yritän saada jotain aikaan.</p>
+                </div>
+
+               <div class="col-sm-4 offset-md-1 py-4 eng">
+                 <h4 class="text-white ">More stuff</h4>
                  <ul class="list-unstyled">
-                    <li><a href="../index.html" class="text-white">Back to start</a></li>
-                   <li><a href="../Portfolio.html" class="text-white">Portfolio</a></li>
-                   <li><a href="https://twitter.com/Jkk_79" class="text-white">Twitter... Though I rarely use it</a></li>
-                   <li><a href="https://www.flickr.com/photos/jkk79/" class="text-white">Some photos on Flickr</a></li>
+                    <li><a href="../index.html" class="text-white ">Back to start</a></li>
+                   <li><a href="../Portfolio.html" class="text-white ">Portfolio</a></li>
+                   <li><a href="https://twitter.com/Jkk_79" class="text-white ">Twitter... Though I rarely use it</a></li>
+                   <li><a href="https://www.flickr.com/photos/jkk79/" class="text-white ">Some photos on Flickr</a></li>
 
                  </ul>
                </div>
+               <div class="col-sm-4 offset-md-1 py-4 fin">
+                  <h4 class="text-white ">Linkkejä</h4>
+                  <ul class="list-unstyled">
+                     <li><a href="../index.html" class="text-white ">Takaisin alkuun</a></li>
+                    <li><a href="../Portfolio.html" class="text-white ">Portfolio</a></li>
+                    <li><a href="https://twitter.com/Jkk_79" class="text-white ">Twitter... Tosin en paljoa käytä sitä</a></li>
+                    <li><a href="https://www.flickr.com/photos/jkk79/" class="text-white ">Joitain kuvia Flickr:ssa</a></li>
+ 
+                  </ul>
+                </div>
+
              </div>
            </div>
          </div>
@@ -48,11 +65,22 @@
              <a href="/" class="navbar-brand d-flex align-items-center">
                <strong>Juha's stuff</strong>
              </a>
+             <div>
+                <img onclick="selectFin()" src="../finflag.png">
+                <img onclick="selectEn()" src="../usaflag.png">
+             </div>
+
+              
+             
+
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
              </button>
            </div>
           </div>
+
+
+          
        </header>
 
       
@@ -76,6 +104,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script>
+
+    <script src="../jk.js"></script>
     
     
 
@@ -128,6 +158,9 @@
    
   }
 </script>
+
+
+
     
     <script>
       //Some unneeded things but I dont want to lose them

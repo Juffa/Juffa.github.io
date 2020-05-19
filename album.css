@@ -70,6 +70,20 @@ a:hover{
   text-decoration:none;
 }
 
+.bg-black{
+  background-color: #111111;
+}
+.bg-gray{
+  background-color: #222222;
+}
+
+.modal-lg{
+  max-width: 1400px;
+}
+
+.modal {
+  z-index: 10001;
+}
 
 
 /*@media screen and (max-width: 768px) {
