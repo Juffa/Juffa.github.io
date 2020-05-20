@@ -1,21 +1,26 @@
 
+   //localStorage.removeItem("jklanguage"); 
   jkvalue=localStorage.getItem("jklanguage");
-
-  if(jkvalue=="0"||null)
+  //console.log(jkvalue); 
+  if(jkvalue=="eng")
   {
     $('.eng').show();
     $('.fin').hide();
-  }else{
+  }else if(jkvalue=="fin")
+  {
     $('.eng').hide();
     $('.fin').show();
+  }else{
+    $('.eng').show();
+    $('.fin').hide();
   }
     function selectFin(){
-      localStorage.setItem("jklanguage","1");
+      localStorage.setItem("jklanguage","fin");
       $('.eng').hide();
       $('.fin').show();
       }
     function selectEn(){
-      localStorage.setItem("jklanguage","0");
+      localStorage.setItem("jklanguage","eng");
       $('.eng').show();
       $('.fin').hide();
       }

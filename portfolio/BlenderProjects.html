@@ -9,15 +9,32 @@
     <title class="eng">Portfolio: Blender projects</title>
     <title class="fin">Portfolio: Blender projekteja</title>
 
+    <!--[if IE]>
+    <div id="warning">
+    <h4 class="red">Your Browser Is Not Supported! Selaimesi ei ole tuettu!</h4><br />
+    <p>Please upgrade to <a href='http://getfirefox.com'>FireFox</a>. Thank You!&nbsp;&nbsp;&nbsp;
+        <a href="#" onClick="document.getElementById('warning').style.display = 'none';"><b>Close Window</b></a></p>
+    </div>
+    <![endif]-->
+
+
+
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="../album.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
   </head>
 
   <body>
+    <noscript>
+        <div style="position: fixed; top: 0px; left: 0px; z-index: 3000; 
+                    height: 100%; width: 100%; background-color: #FFFFFF">
+            <p style="margin-left: 10px">JavaScript is not enabled.</p>
+        </div>
+    </noscript>
 
       <header class="fixed-top" id="header">
      
@@ -68,7 +85,7 @@
                     <div class="modal-dialog modal-lg bg-black " role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/BunnyReach1.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/BunnyReach1.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         An Easter Bunny.
@@ -106,7 +123,7 @@
                                 </div>
                             </div>
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/jkbunny.jpg"><br>
+                                <img class="card-img-top lazyload" src="./images/jkbunny.jpg"><br>
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         <small>
@@ -134,7 +151,7 @@
 
                 <div class="col-md-4 projectCard" id="Quaggan" >
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#quagganpopup">
-                        <img class="card-img-top" src="./images/quaggan.jpg">
+                        <img class="card-img-top lazyload" src="./images/quaggan.jpg">
                         <div class="card-body bg-dark">
                             <a class="lead text-white eng collapse" aria-expanded="true">"A Quaggan" (Guild Wars 2)</a>
                             <a class="lead text-white fin collapse" aria-expanded="true">"Quaggani" (Guild Wars 2)</a>
@@ -148,7 +165,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/quaggan.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/quaggan.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
 
@@ -173,7 +190,7 @@
                                 </div>
                             </div>
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top bg-dark" src="./images/quagganscircle2_nb.png"><br>
+                                <img class="card-img-top bg-dark lazyload" src="./images/quagganscircle2_nb.png"><br>
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         <small>
@@ -201,7 +218,7 @@
 
                 <div class="col-md-4 projectCard" id="Vizlet" >
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#vizletpopup">
-                        <img class="card-img-top" src="./images/vizlet.jpg" >
+                        <img class="card-img-top lazyload" src="./images/vizlet.jpg" >
                         <div class="card-body bg-dark">
                             <a class="lead text-white" aria-expanded="true">"Vizlet"</a>
                         </div>
@@ -213,7 +230,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/vizlet.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/vizlet.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
 
@@ -230,7 +247,7 @@
                                 </div>
                             </div>
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/vizletthink.jpg">
+                                <img class="card-img-top lazyload" src="./images/vizletthink.jpg">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         "Vizlet" is rigged for basic movement but doesn't have any facial expression, though jaw can be opened and the eyes can follow a target.<br>
@@ -243,7 +260,7 @@
                                 </div>
                             </div>
                             <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="./images/vizlet_wire.jpg">
+                            <img class="card-img-top lazyload" src="./images/vizlet_wire.jpg">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         A wireframe image.<br>
@@ -263,7 +280,7 @@
 
                 <div class="col-md-4 projectCard" id="Smurfette">
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#smurfettepopup">
-                        <img class="card-img-top img-fluid" src="./images/smurfcrop.jpg" >
+                        <img class="card-img-top lazyload" src="./images/smurfcrop.jpg" >
                         <div class="card-body bg-dark">
                             <a class="lead text-white eng collapse"  aria-expanded="true">Smurfette</a>
                             <a class="lead text-white fin collapse"  aria-expanded="true">Smurffiina</a>
@@ -275,7 +292,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/smurfette.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/smurfette.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         
@@ -303,7 +320,7 @@
                             </div>
 
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/smurfette_wire.jpg">
+                                <img class="card-img-top lazyload" src="./images/smurfette_wire.jpg">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         A wireframe image.<br>
@@ -311,7 +328,7 @@
                                 </div>
                             </div>
                             <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="./images/smurf_nsfw.jpg">
+                            <img class="card-img-top lazyload" src="./images/smurf_nsfw.jpg">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         And then some semi-nsfw...
@@ -326,7 +343,7 @@
 
                 <div class="col-md-4 projectCard" id="Wacom">
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#wacompopup">
-                        <img class="card-img-top" src="./images/wacomtablet.jpg" >
+                        <img class="card-img-top lazyload" src="./images/wacomtablet.jpg" >
                         <div class="card-body bg-dark">
                             <a class="lead text-white eng collapse"  aria-expanded="true">A Wacom tablet</a>
                             <a class="lead text-white fin collapse"  aria-expanded="true">Wacomin piirtoalusta</a>
@@ -338,7 +355,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/wacomtablet.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/wacomtablet.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         I decided to model something I have on my desk. So I modeled a Wacom pen. Then I felt it was necessary to model the tablet too.<br><br>
@@ -357,7 +374,7 @@
                                 </div>
                             </div>
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/wacomi.jpg">
+                                <img class="card-img-top lazyload" src="./images/wacomi.jpg">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         The "wood" texture in this image is procedurally generated through blender nodes, though it doesn't look really genuine. I've later made one which looks like glued board.
@@ -370,7 +387,7 @@
                                 </div>
                             </div>
                             <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="./images/wacomi_wire.jpg">
+                            <img class="card-img-top lazyload" src="./images/wacomi_wire.jpg">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         Wireframe.
@@ -385,7 +402,7 @@
 
                 <div class="col-md-4 projectCard" id="Mugs" >
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#mugspopup">
-                        <img class="card-img-top" src="./images/nallepuhmukit.jpg" >
+                        <img class="card-img-top lazyload" src="./images/nallepuhmukit.jpg" >
                         <div class="card-body bg-dark">
                             <a class="lead text-white eng collapse" aria-expanded="true">Winnie-the-pooh mugs</a>
                             <a class="lead text-white fin collapse" aria-expanded="true">Nalle-Puh mukit</a>
@@ -397,7 +414,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/nallepuhmukit.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/nallepuhmukit.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         I wanted to make a 3d image of some mugs I have.<br><br>
@@ -423,7 +440,7 @@
 
                 <div class="col-md-4 projectCard" id="Breastplates">
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#breastplatespopup">
-                        <img class="card-img-top" src="./images/breastplates.jpg" >
+                        <img class="card-img-top lazyload" src="./images/breastplates.jpg" >
                         <div class="card-body bg-dark">
                             
                             <a class="lead text-white eng collapse" aria-expanded="true">Breastplates</a>
@@ -437,7 +454,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/breastplates.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/breastplates.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         Related to the batweapons project, the first suggestion for a  "Breastplate of Xzui". <br><br>
@@ -471,7 +488,7 @@
                 
                 <div class="col-md-4 projectCard" id="Sohva">
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#sohvapopup">
-                        <img class="card-img-top" src="./images/sohva.jpg" >
+                        <img class="card-img-top lazyload" src="./images/sohva.jpg" >
                         <div class="card-body bg-dark">
                             <a class="lead text-white eng collapse" aria-expanded="true">A leather couch</a>
                             <a class="lead text-white fin collapse" aria-expanded="true">Nahkasohva</a>
@@ -484,7 +501,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/sohva.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/sohva.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         A leather couch I have in my livingroom<br><br>
@@ -507,7 +524,7 @@
                                 </div>
                             </div>
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/sohva_wire.jpg">
+                                <img class="card-img-top lazyload" src="./images/sohva_wire.jpg">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         The wireframe of the couch.
@@ -522,7 +539,7 @@
     
                 <div class="col-md-4 projectCard" id="Gargamel">
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#gargamelpopup">
-                        <img class="card-img-top" src="./images/gargamel.jpg" >
+                        <img class="card-img-top lazyload" src="./images/gargamel.jpg" >
                         <div class="card-body bg-dark">
                             <a class="lead text-white eng collapse" aria-expanded="true">Gargamel (Smurfs)</a>
                             <a class="lead text-white fin collapse" aria-expanded="true">Gargamel (Velho, Smurffit)</a>
@@ -536,7 +553,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/gargamel.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/gargamel.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         Gargamel (Smurfs).<br><br>
@@ -554,7 +571,7 @@
                                 </div>
                             </div>
                             <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="./images/gargamel_wire.jpg">
+                            <img class="card-img-top lazyload" src="./images/gargamel_wire.jpg">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         Wireframe.
@@ -569,7 +586,7 @@
 
                 <div class="col-md-4 projectCard" id="Glasstable">
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#glasstablepopup">
-                        <img class="card-img-top" src="./images/glasstable.jpg">
+                        <img class="card-img-top lazyload" src="./images/glasstable.jpg">
                         <div class="card-body bg-dark">
                             <a class="lead text-white eng collapse" aria-expanded="true">A glass table</a>
                             <a class="lead text-white fin collapse" aria-expanded="true">Lasipöytä</a>
@@ -582,7 +599,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/glasstable.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/glasstable.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         A quick glass table design.<br><br>
@@ -607,7 +624,7 @@
 
                 <div class="col-md-4 projectCard" id="woodenDummy">
                     <div class="card mb-4 shadow-sm link"  data-toggle="modal" data-target="#woodendummypopup">
-                        <img class="card-img-top" src="./images/wooddummy.jpg" >
+                        <img class="card-img-top lazyload" src="./images/wooddummy.jpg" >
                         <div class="card-body bg-dark">
                             <a class="lead text-white eng collapse" aria-expanded="true">Wooden dummy</a>
                             <a class="lead text-white fin collapse" aria-expanded="true">Puinen mallinukke</a>
@@ -620,7 +637,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/wooddummy.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/wooddummy.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         This wooden dummy I made has procedural textures.<br><br>
@@ -639,7 +656,7 @@
                                 </div>
                             </div>
                             <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="./images/wooddummy_wire.jpg">
+                            <img class="card-img-top lazyload" src="./images/wooddummy_wire.jpg">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         Wireframe.
@@ -656,7 +673,7 @@
 
                 <div class="col-md-4 projectCard" id="Greendeath">
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#greendeathpopup">
-                        <img class="card-img-top" src="./images/greendeath.jpg">
+                        <img class="card-img-top lazyload" src="./images/greendeath.jpg">
                         <div class="card-body bg-dark eng collapse">
                             <a class="lead text-white" aria-expanded="true">The sabre 'Green Death'</a><br>
                             <small class="text-white">A part of the Batmud weapons collection</small>
@@ -673,7 +690,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/greendeath.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/greendeath.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         <a class="lead text-white" aria-expanded="true">The sabre 'Green Death'</a><br>
@@ -722,7 +739,7 @@
 
                 <div class="col-md-4 projectCard" id="Sizzlingkatana">
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#sizzlingkatanapopup">
-                        <img class="card-img-top" src="./images/sizzlingkatana.jpg">
+                        <img class="card-img-top lazyload" src="./images/sizzlingkatana.jpg">
                         <div class="card-body bg-dark eng collapse">
                             <a class="lead text-white" aria-expanded="true">A Sizzling Katana</a><br>
                             <small class="text-white">A part of the Batmud weapons collection</small>
@@ -739,7 +756,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/sizzlingkatana.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/sizzlingkatana.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         <a class="lead text-white" aria-expanded="true">A Sizzling Katana</a><br>
@@ -780,7 +797,7 @@
 
                 <div class="col-md-4 projectCard" id="Swordofwonders">
                     <div class="card mb-4 shadow-sm link"  data-toggle="modal" data-target="#swordofwonderspopup">
-                        <img class="card-img-top" src="./images/swordofwonders.jpg">
+                        <img class="card-img-top lazyload" src="./images/swordofwonders.jpg">
                         <div class="card-body bg-dark eng collapse">
                             <a class="lead text-white" aria-expanded="true">Sword of Wonders</a><br>
                             <small class="text-white">A part of the Batmud weapons collection</small>
@@ -797,7 +814,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/swordofwonders.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/swordofwonders.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         <a class="lead text-white" aria-expanded="true">Sword of Wonders</a><br>
@@ -842,7 +859,7 @@
 
                 <div class="col-md-4 projectCard" id="Barbmace">
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#barbmacepopup">
-                        <img class="card-img-top" src="./images/barbmace.jpg">
+                        <img class="card-img-top lazyload" src="./images/barbmace.jpg">
                         <div class="card-body bg-dark eng collapse">
                             <a class="lead text-white" aria-expanded="true">Mace of Barbarian Lords</a><br>
                             <small class="text-white">A part of the Batmud weapons collection</small>
@@ -859,7 +876,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/barbmace.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/barbmace.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         <a class="lead text-white" aria-expanded="true">Mace of Barbarian Lords</a><br>
@@ -898,7 +915,7 @@
 
                 <div class="col-md-4 projectCard" id="Kprurian">
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#kprurianpopup">
-                        <img class="card-img-top" src="./images/kprurian.jpg">
+                        <img class="card-img-top lazyload" src="./images/kprurian.jpg">
                         <div class="card-body bg-dark eng collapse">
                             <a class="lead text-white" aria-expanded="true">K’prurian, battle mace</a><br>
                             <small class="text-white">A part of the Batmud weapons collection</small>
@@ -915,7 +932,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/kprurian.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/kprurian.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         <a class="lead text-white" aria-expanded="true">K’prurian, battle mace</a><br>
@@ -956,7 +973,7 @@
 
                 <div class="col-md-4 projectCard" id="Maul">
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#maulpopup">
-                        <img class="card-img-top" src="./images/maul.jpg">
+                        <img class="card-img-top lazyload" src="./images/maul.jpg">
                         <div class="card-body bg-dark eng collapse">
                             <a class="lead text-white" aria-expanded="true">The HUGE (undead) crushing maul</a><br>
                             <small class="text-white">A part of the Batmud weapons collection</small>
@@ -973,7 +990,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/maul.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/maul.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         <a class="lead text-white" aria-expanded="true">The HUGE (undead) crushing maul</a><br>
@@ -1010,7 +1027,7 @@
 
                 <div class="col-md-4 projectCard" id="Voulge">
                     <div class="card mb-4 shadow-sm link"  data-toggle="modal" data-target="#voulgepopup">
-                        <img class="card-img-top" src="./images/voulge.jpg">
+                        <img class="card-img-top lazyload" src="./images/voulge.jpg">
                         <div class="card-body bg-dark eng collapse">
                             <a class="lead text-white" aria-expanded="true">Hot crystal voulge of DOOM</a><br>
                             <small class="text-white">A part of the Batmud weapons collection</small>
@@ -1027,7 +1044,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/voulge.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/voulge.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         <a class="lead text-white" aria-expanded="true">Hot crystal voulge of DOOM</a><br>
@@ -1072,7 +1089,7 @@
 
                 <div class="col-md-4 projectCard" id="Kraftigar">
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#kraftigarpopup">
-                        <img class="card-img-top" src="./images/kraftigar.jpg">
+                        <img class="card-img-top lazyload" src="./images/kraftigar.jpg">
                         <div class="card-body bg-dark eng collapse">
                             <a class="lead text-white" aria-expanded="true">Kraftigar, trident of darkness</a><br>
                             <small class="text-white">A part of the Batmud weapons collection</small>
@@ -1089,7 +1106,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/kraftigar.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/kraftigar.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         <a class="lead text-white" aria-expanded="true">Kraftigar, trident of darkness</a><br>
@@ -1129,7 +1146,7 @@
 
                 <div class="col-md-4 projectCard" id="Rubylongspear">
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#rubylongspearpopup">
-                        <img class="card-img-top" src="./images/rubyspear.jpg">
+                        <img class="card-img-top lazyload" src="./images/rubyspear.jpg">
                         <div class="card-body bg-dark eng collapse">
                             <a class="lead text-white" aria-expanded="true">Ruby long spear</a><br>
                             <small class="text-white">A part of the Batmud weapons collection</small>
@@ -1146,7 +1163,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/rubyspear.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/rubyspear.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         <a class="lead text-white" aria-expanded="true">Ruby long spear</a><br>
@@ -1176,7 +1193,7 @@
                                 </div>
                             </div>
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/rubylongspear2.jpg">
+                                <img class="card-img-top lazyload" src="./images/rubylongspear2.jpg">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         Another idea of how the ruby could be attached to the shaft. Looks more like a gem this way, not suitable for poking anyone...
@@ -1197,7 +1214,7 @@
 
                 <div class="col-md-4 projectCard" id="sunSword">
                     <div class="card mb-4 shadow-sm link" data-toggle="modal" data-target="#sunswordpopup">
-                        <img class="card-img-top" src="./images/sunsword.jpg">
+                        <img class="card-img-top lazyload" src="./images/sunsword.jpg">
                         <div class="card-body bg-dark eng collapse">
                             <a class="lead text-white" aria-expanded="true">"Sunsword"</a>
                         </div>
@@ -1213,7 +1230,7 @@
                     <div class="modal-dialog modal-lg bg-black" role="document">
                         <div class="projectCard">
                             <div class="card mb-4 shadow-sm">
-                                <img class="card-img-top" src="./images/sunsword.jpg" style="width:100%">
+                                <img class="card-img-top lazyload" src="./images/sunsword.jpg" style="width:100%">
                                 <div class="card-body bg-dark eng collapse">
                                     <p class="card-text text-white">
                                         A sword I made based on a sketch by someone on imgur.<br><br>
@@ -1279,6 +1296,7 @@
       //$("body").prepend($('<header>').load("../index.html #header", function(){}));
         $("#header").load("../index.html #header > *");
         //console.log("trying to load header");
+        lazyload();
         
   </script>
   
