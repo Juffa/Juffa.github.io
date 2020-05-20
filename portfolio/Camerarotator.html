@@ -23,7 +23,7 @@
 
     <main class="container-fluid" role="main">
             
-      <section class="jumbotron-fluid bg-dark mb-1">
+      <section class="jumbotron-fluid bg-dark mb-1 eng collapse">
             <a href="../Portfolio.html" class="text-right">&lt;--Back to Portfolio</a>
         <div class="container-fluid">
           <h1 class="jumbotron-heading text-center text-white">An Arduino-controlled motorized panoramic tripod head</h1>
@@ -33,19 +33,39 @@
 
         </div>
       </section>
+      <section class="jumbotron-fluid bg-dark mb-1 fin collapse">
+        <a href="../Portfolio.html" class="text-right">&lt;--Takaisin Portfolion etusivulle</a>
+    <div class="container-fluid">
+      <h1 class="jumbotron-heading text-center text-white">Arduino-ohjattu moottoroitu kamerapää, kameranpyöritin tai kamerarobotti</h1>
+      <p class="lead text-center text-muted">Juha Kaikko</p>
+      
+        </small>
+
+    </div>
+  </section>
 
         <div class="container-fluid" id="container">
             <div class="row bg-dark mt-1 pt-4">
                 <!--margin-top 1, padding top and bottom 4-->
                 <div class="col-md-12 pb-4">
                   <!--column width 8/12 of total width, padding-bottom 4 -->
-                  <p class="text-white lead">
+                  <p class="text-white lead eng collapse">
                       "I don't know anything about any of this, what is this thing?"
                   </p>
-                  <p class="text-white">
+                  <p class="text-white lead fin collapse">
+                    "En ymmärrä tästä mitään, selitä vähän?"
+                </p>
+
+                  <p class="text-white eng collapse">
                     It is a device that can rotate a camera around so that it can take pictures at every direction while staying in exactly the same spot. 
                     <br>
                     The photos can then be combined into one large image like so:
+                  </p>
+                  <p class="text-white fin collapse">
+                     
+                    Tämä on laite joka voi pyörittää järjestelmäkameraa keskipisteen ympäri niin, että se voi ottaa kuvia joka suuntaan.
+                    <br>
+                    Kuvat voi sitten yhdistää yhdeksi isoksi panoraamakuvaksi:
                   </p>
                 </div>
               </div><!--row-->
@@ -65,8 +85,11 @@
                 </div><!--row-->
                 <div class="row bg-dark">
                   <div class="col-md-12">
-                  <p class="text-white lead">
+                  <p class="text-white lead eng collapse">
                     "How does it work?"
+                  </p>
+                  <p class="text-white lead fin collapse">
+                    "Miten se toimii?"
                   </p>
                   </div>
                 </div>
@@ -81,7 +104,7 @@
           <div class="row bg-dark mt-1 py-4">
             <!--margin-top 1, padding top and bottom 4-->
             
-            <div class="col-md-8 pb-4">
+            <div class="col-md-8 pb-4 eng collapse">
               <!--column width 8/12 of total width, padding-bottom 4 -->
               <p class="text-white lead">
                   A bit of backstory:
@@ -124,9 +147,46 @@
               </p>
 
             </div>
+            <div class="col-md-8 pb-4 fin collapse">
+              <!--column width 8/12 of total width, padding-bottom 4 -->
+              <p class="text-white lead">
+                  Vähän taustaa:
+              </p>
+              <p class="text-white">
+                Pidän valokuvauksesta, ja törmäsin internetissä näihin panoramakuviin jotka on yhdistetty useammasta kuvasta.
+                Löysin ilmaisen ohjelmiston (Hugin) jolla voi liittää kuvia yhteen paremmin kuin jollain perus-photarilla,
+                kun kuvia täytyy venyttää, kääntää, leikata ja liimata oikein, ottaen huomioon linssin ominaisuudet.
+                <br>
+
+                Hugin oli loistava tähän, ja tavallisen rectilineari projektion lisäksi sillä voi tehdä monia muitakin, esimerkiksi stereograafisia projektioita.
+                <br>
+                <br>
+                Jos ottaa kuvia jokaiseen mahdolliseen suuntaan kattaen koko alueen, myös ylös ja alas, voi niistä luoda <a href="https://kuula.co/post/7lc9H" style="text-decoration:underline">tällaisia pallopanoramakuvia</a>, 
+                joissa voi katsoa joka suuntaan.<br>
+                Sillä voi tehdä myös <a href="https://www.flickr.com/photos/jkk79/23544236858/" style="text-decoration:underline">tällaisia pieniä planeettoja</a> 
+                tai <a href="https://www.flickr.com/photos/jkk79/36726110743" style="text-decoration:underline">käänteisiä pieniä planeettoja</a>.
+                <br>
+                Mutta siinä on pieni juju: Kuvien välissä kameran tulee pyörähtää tarkalleen linssin sisällä olevan pisteen ympäri jossa valonsäteet leikkaavat, jotta ei tule parallaksiliikettä.
+                <br>
+                <br>
+                "Parallaksi tarkoittaa yleisesti sitä, että kun havaitsija liikkuu, niin paikallaan oleva esine näyttää liikkuvan taustaansa nähden." (Wikipedia).
+                <br> 
+                Joten jollei kameraa pyöritä tarkalleen edellämainitun pisteen ympäri, kohteet eri etäisyyksillä näyttävät liikkuvan toisiinsa nähden, ja kuvien yhteenliittäminen tuottaa huonoja tuloksia.
+                <br>
+                Toki, joskus on mahdollista saada ihan "ok" tuloksia jopa vapaalta kädeltä, mutta oikeasti onnistuneisiin kuviin tarvitsee jalustan ja erityisen tähän tarkoitukseen tehdyn panoramapään.
+                <br>
+                Tätä asiaa tutkiskellessa törmäsin laitteeseen joka kääntää kameraa moottoreilla... 
+                <br>
+                ...Harmi vain ne maksoivat lähemmäs 1000 euroa.
+                <br>
+                <br>
+                Mutta niihin aikoihin hankin tee-se-itse 3d-tulostimen ja sitä rakentaessa ja käyttäessä alkoi muodostumaan idea omasta kameranpyörittimestä. Sen voisi rakentaa osin samoista osista.                
+              </p>
+
+            </div>
             <div class="col-md-4 px-4 pt-2 mb-1"  >
                 <!--column width 4/12, padding-left and right 4, padding-top 2, margin-bottom 1-->
-                <img class="img-fluid" src="https://i.imgur.com/QR6BEAD.jpg">
+                <img class="img-fluid" src="./images/cam2.jpg">
                 </div>
             
           </div><!--row-->
@@ -137,10 +197,10 @@
           <div class="row bg-dark mt-1 py-4">
               <div class="col-md-4 px-4 pt-2">
                   <!--kuva?-->
-                  <img class="img-fluid" src="https://i.imgur.com/dKz67om.png">
+                  <img class="img-fluid" src="./images/cam1.png">
                 </div>
            
-            <div class="col-md-8 pb-4">
+            <div class="col-md-8 pb-4 eng collapse">
               <p class="text-white lead">
                   The design
               </p>
@@ -194,11 +254,41 @@
                 Though running with lower speed and stopping for a moment before shooting removes all the vibrations.
               </p>
             </div>
+            <div class="col-md-8 pb-4 fin collapse">
+              <p class="text-white lead">
+                  The design
+              </p>
+              <p class="text-white">
+                Tosiaan, 3d-tulostin antoi idean perusdesignistä, tulostettuja osia ja kierretankoa. 
+                Tosin jotta rakenteesta sai tarpeeksi tukevan, osien täytyi olla kohtalaisen järeitä, eikä kierretankokaan varsinaisesti ole mitään kovin kevyttä.
+                Tästä seurasi että tästä prototyypistä tuli varsin painava.
+                <br>
+                Halusin pyörittimen pystyvän käyttämään Nikon D700 järjestelmäkameraani, mutta se on myös varsin painava. 
+                Pelkkä runko painaa jo lähes kilon, ja pienimmät objektiivit alkavat jostain 350 grammasta.
+                Sitten huomasin että laajakulmaisessa 14mm obejektiivissa jota suunnittelin käyttäväni, valon leikkauspiste on todella lähellä objektiivin etupäätä,
+                joten kameran runko jää melko kauas pyörähdyksen keskipisteestä... Noin 10cm.
+                reilun kilon paino 10 sentin vääntövarren päässä luo niin paljon vääntöä että NEMA 17 -kokoisissa askelmoottoreissa ei mitenkään riitä vääntö. 
+                Toisella objektiivilla paino tai etäisyys voisi olla vielä korkeampi.
+                <br>
+                Joten tein joitain laskelmia, otin kohdepainoksi 2kg ja 10cm vipuvarren, ja vertasin vääntövoimaa tyypilliseen NEMA 17 -askelmoottorin specseihin.
+                Kävi ilmi että tarvitsisin kaksi moottoria 1:8 välityksellä että vääntö riittää.
+                
+                <br>
+                <br>
+                3-d -tulostetut rattaat oli selvä valinta välityksen hoitamiseen, etenkin kun rattaille löytyy valmiita generaattoreita OpenSCAD -ohjelmalle.
+                Materiaali, eli tulostettu muovi, tosin aiheuttaa joitain rajoituksia. 
+                0,4mm tulostuskärjellä ei saa tarkinta mahdollista tulostusjälkeä, eikä se myöskään ole niin vahvaa kuin ruiskuvalutekniikalla tehty.<br>
+                Tästä johtuen rattaiden täytyy olla melko suuria.
+                <br>
+                <br>
+                Designistä voisi tehdä kompaktimman, siirtämällä moottorit alas ja käyttää hihnoja rattaiden sijaan.
+              </p>
+            </div>
 
           </div><!--row-->
 
         <div class="row bg-dark mt-1 py-4">
-            <div class="col-md-8 pb-4">
+            <div class="col-md-8 pb-4 eng collapse">
               <p class="text-white lead">
                 Arduino and other electronics
               </p>
@@ -231,18 +321,46 @@
                 
               </p>
             </div>
+            <div class="col-md-8 pb-4 fin collapse">
+              <p class="text-white lead">
+                Arduino ja muu elektroniikka
+              </p>
+              <p class="text-white">
+                Tarvitsin jotain jolla ohjata askelmoottoreita,
+                ja ilmeinen valinta tähän on tarkalleen sama laite jolla voi hallita 3d-printteriä: Arduino.
+                Tosin tässä ei aivan tarvita Arduino Mega:aa, vähemmätkin pinnit riittävät, kuten vaikka Arduino Nano, joita saa 2-3 eurolla Ebaystä.
+                <br>
+                Moottorinohjausyksiköt löytyvät myös Ebaystä noin 1-2 eurolla kappale, samaten prototyyppipiirilevyjä saa sieltä halvalla.
+                <br>
+                <br>
+                Kolvasin arduinon, moottorien ohjausyksiköt ja muut komponentit piirilevylle ja tein liitokset johdoilla takapuolelle.
+                Eihän se mikään kaunis ollut mutta toimi ensimmäisellä yrityksellä.
+                <br>
+                Arduinon täytyy myös pystyä laukaisemaan kamera, joten hankin 5V releitä ja laukaisukaapelin kameralle. 
+                Lisäsin pienen transistorin boostaamaan arduinon pinneistä tulevaa virtaa jotta se jaksaa kytkeä 5V releen.
+
+                <br>
+                <br>
+                Suunnittelin ja tulostin myös rasian johon elektroniikat tulevat. Ensin meinasin lisätä rasiaan pienen tuulettimen, mutta päädyin vain tekemään siihen paljon reikiä ilmanvaihtoa varten.
+                <br>
+                <br>
+                Koko homma toimii 12V akulla tai muuntajalla, kun moottorinohjaimet toimivat parhaiten 12V jännitteellä, joka kelpaa myös arduinolle kun siinä on oma 5V regulaattorinsa.
+
+                
+              </p>
+            </div>
             <div class="col-md-4 px-4 pt-2">
                 <!--kuva?-->
-                <img class="img-fluid" src="https://i.imgur.com/TqIlRkI.jpg">
+                <img class="img-fluid" src="./images/cam3.jpg">
             </div>
           </div><!--row-->
 
           <div class="row bg-dark mt-1 py-4">
               <div class="col-md-4 px-4 pt-2">
                   <!--kuva?-->
-                  <img class="img-fluid" src="https://i.imgur.com/dKz67om.png">
+                  <img class="img-fluid" src="./images/cam1.png">
                 </div>
-            <div class="col-md-8 pb-4">
+            <div class="col-md-8 pb-4 eng collapse">
               <p class="text-white lead">
                   The code
               </p>
@@ -285,16 +403,40 @@
 
               </p>
             </div>
+            <div class="col-md-8 pb-4 fin collapse">
+              <p class="text-white lead">
+                  Koodi
+              </p>
+              <p class="text-white">
+                Projektin alussa Arduino, C ja C++ eivät ennestään olleet kovin tuttuja, mutta olin vähän koodaillut Javalla joten alkuun pääsy ei ollutkaan kovin vaikeaa.
+                Arduinolle löytyy myös paljon esimerkkejä joka auttaa jonkin verran.
+                <br>
+                <br>
+                Laitetta voi ohjata kolmella kotelossa olevalla napilla: ylös, alas ja valinta.
+                Tekemässäni ohjelmassa on monta eri toimintamoodia, esimerkiksi 360x180 panorama,
+                ja <a href="https://www.youtube.com/watch?v=mqCh4uhhAaE" style="text-decoration:underline">pyörähdys-timelapse.</a><br>
+                Oletusasetukset toimivat päivänvalossa, mutta esim pidempi valotus yökuvaukseen on valittavissa asetusvalikossa.<br>
+                Oletuksena ohjelma käyttää 14mm objektiivia, mutta valittavissa on muitakin, kuten 50mm, jolla saa paljon laadukkaampia kuvia kuin 14mm:llä, mutta tämä tarvitsee enemmän kuvia.                
+                <br>
+                Of course, when changing the lens, the distance from the pivot point needs to be calibrated again, too.
+                Linssiä vaihtaessa täytyy myös kameran etäisyys pyörähdyksen keskipisteestä kalibroida uudelleen.
+              </p>
+            </div>
             
           </div><!--row-->
           <div class="row bg-dark mt-1 py-4">
-              <div class="col-md-4 pb-4">
+              <div class="col-md-4 pb-4 eng collapse">
                 <p class="text-white">
                   A 3d-view of the camera rotator.
                   <br>
                   Hmm, maybe I'll add some sort of part viewer? Or an animated version of how it operates? Maybe in the future?
                   <br>
                   The control box is missing from this, it's on a separate file.
+                </p>
+              </div>
+              <div class="col-md-4 pb-4 fin collapse">
+                <p class="text-white">
+                  3d-näkymä kameranpyörittimestä.
                 </p>
               </div>
               <div class="col-md-8 pb-4" id="3dview" style="height:500px">
@@ -304,13 +446,29 @@
           </div><!--row-->
         </div><!--container-->
 
+
+
+
+
+
+        
+
     </main>
 
-    <footer class="text-muted">
+    <footer class="text-muted eng collapse">
       <div class="container-fluid">
             <a href="../Portfolio.html">&lt;--Back to Portfolio</a>
         <p class="float-right">
           <a href="#">Back to top</a><br>
+          
+        </p>
+      </div>
+    </footer>
+    <footer class="text-muted fin collapse">
+      <div class="container-fluid">
+            <a href="../Portfolio.html">&lt;--Takaisin Portfolion etusivulle</a>
+        <p class="float-right">
+          <a href="#">Takaisin ylös</a><br>
           
         </p>
       </div>
@@ -329,6 +487,7 @@
     <script src="../WebGL.js"></script>
     <script src="../stats.min.js"></script>
     <script src="../OrbitControls.js"></script>
+    <script src="../jk.js"></script>
   <script>
       //$("body").prepend($('<header>').load("../index.html #header", function(){}));
         $("#header").load("../index.html #header > *");
@@ -416,18 +575,6 @@
 			}
   </script>
 
-<script>
-    $('.eng').show();
-    $('.fin').hide();
-      function selectFin(){
-        $('.eng').hide();
-        $('.fin').show();
-        }
-      function selectEn(){
-        $('.eng').show();
-        $('.fin').hide();
-        }
-      </script>
 
   </body>
 </html>

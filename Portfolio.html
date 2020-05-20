@@ -24,8 +24,7 @@
     <main class="container-fluid">
 
       <section class="jumbotron-fluid bg-dark mb-1">
-          <a href="../" class="text-right">&lt;--Back</a>
-        <div class="container-fluid">
+          <div class="container-fluid">
           <div class="text-center">
           <h1 class="jumbotron-heading text-white">Portfolio</h1>
           <p class="lead text-muted">Juha Kaikko</p>
@@ -46,51 +45,67 @@
 
 
               <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm" onclick="window.location.href='../portfolio/BlenderProjects.html'">
+                  <div class="card mb-4 shadow-sm link" onclick="window.location.href='../portfolio/BlenderProjects.html'">
                     <img class="card-img-top" src="./portfolio/images/pf_blend.jpg" >
-                    <div class="card-body bg-dark">
-                      <p class="lead text-white">Random Blender projects<br><br>
+                    <div class="card-body bg-dark eng collapse">
+                      <p class="lead text-white">Blender projects<br><br>
+                      </p>
+                    </div>
+                    <div class="card-body bg-dark fin collapse">
+                      <p class="lead text-white">Blenderiprojektit<br><br>
                       </p>
                     </div>
                   </div>
                 </div>
             
             <div class="col-md-4">
-              <div class="card mb-4 shadow-sm" onclick="window.location.href='../portfolio/Camerarotator.html'">
+              <div class="card mb-4 shadow-sm link" onclick="window.location.href='../portfolio/Camerarotator.html'">
                 <img class="card-img-top bg-dark"  src="./portfolio/images/pf_cam.jpg" >
-                <div class="card-body bg-dark">
+                <div class="card-body bg-dark eng collapse">
                   <p class="lead text-white">Project: An Arduino-controlled motorized panoramic tripod head
-                  
-                  
-
                   </p>
-
+                </div>
+                <div class="card-body bg-dark fin collapse">
+                  <p class="lead text-white">Projekti: Arduino-ohjattu moottoroitu kamerapää
+                  </p>
                 </div>
               </div>
             </div>
 
 
 
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm" onclick="window.location.href='../portfolio/Batweapons.html'">
-                  <img class="card-img-top" src="./portfolio/images/pf_batweap.jpg" >
-                  <div class="card-body bg-dark">
-                    <p class="lead text-white">Blender project: Fantasy weapons from BatMud
-                    </p>
 
-                  </div>
-                </div>
-              </div>
 
               <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm" onclick="window.location.href='../portfolio/Photography.html'">
+                  <div class="card mb-4 shadow-sm link" onclick="window.location.href='../portfolio/Photography.html'">
                     <img class="card-img-top" src="./portfolio/images/pf_photo.jpg" >
-                    <div class="card-body bg-dark">
+                    <div class="card-body bg-dark eng collapse">
                       <p class="lead text-white">Photography</p>
+                    </div>
+                    <div class="card-body bg-dark fin collapse">
+                      <p class="lead text-white">Valokuvaus</p>
 
                     </div>
                   </div>
                 </div>
+
+
+                <div class="col-md-4">
+                  <div class="card mb-4 shadow-sm link" onclick="window.open('https://github.com/Juffa')">
+                    <img class="card-img-top" src="./portfolio/images/pf_code.jpg" >
+                    <div class="card-body bg-dark eng collapse">
+                      <p class="lead text-white">Programming</p>
+                      <a class="text-muted">Yeah it's not much but still something I can do a bit.<br>
+                                        
+                      </a>
+                    </div>
+                    <div class="card-body bg-dark fin collapse">
+                      <p class="lead text-white">Ohjelmointi</p>
+                      <a class="text-muted">Juu eihän se kummoista mutta jotain nyt silti.<br>
+
+                    </div>
+                  </div>
+                </div>  
 
 
           </div><!--row-->
@@ -99,10 +114,17 @@
 
     </main>
 
-    <footer class="text-muted">
+    <footer class="text-muted eng collapse">
       <div class="container-fluid">
         <p class="float-right">
           <a href="#">Back to top</a>
+        </p>
+      </div>
+    </footer>
+    <footer class="text-muted fin collapse">
+      <div class="container-fluid">
+        <p class="float-right">
+          <a href="#">Takaisin ylös</a>
         </p>
       </div>
     </footer>
@@ -114,25 +136,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script>
-  
+    <script src="../jk.js"></script>
   <script>
       //$("body").prepend($('<header>').load("../index.html #header", function(){}));
         $("#header").load("../index.html #header > *");
         console.log("trying to load header");
   </script>
 
-<script>
-    $('.eng').show();
-    $('.fin').hide();
-      function selectFin(){
-        $('.eng').hide();
-        $('.fin').show();
-        }
-      function selectEn(){
-        $('.eng').show();
-        $('.fin').hide();
-        }
-      </script>
+
 
   </body>
 </html>

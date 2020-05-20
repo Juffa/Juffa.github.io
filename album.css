@@ -84,7 +84,9 @@ a:hover{
 .modal {
   z-index: 10001;
 }
-
+.link{
+  cursor:pointer;
+}
 
 /*@media screen and (max-width: 768px) {
     body { padding-top: 0px; }
