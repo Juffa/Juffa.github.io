@@ -241,7 +241,7 @@
         }
       },
       {
-        "file": "bunnyreach1 m.jpg",
+        "file": "BunnyReach1 m.jpg",
         "type": "image",
         "description": {
           "en": "This one is from the original older project, with the original face design.",
@@ -416,7 +416,7 @@
         "file": "red room1 m.jpg",
         "type": "image",
         "description": {
-          "en": "The Red Room from Twin Peaks. Weird and scary things happen in this room. It's a dreamlike place. The zigzag pattern on the floor should be more pronounced, but I just used a texture that I already had. The curtains have a lot of folds and baking a lightmap in unity was somehow quite difficult, it generated way too sharp shadows. I don't know what was going on with that. This is a blender render.",
+          "en": "The Red Room from Twin Peaks. Weird and scary things happen in this room. It's a dreamlike place. The zigzag pattern on the floor should be more pronounced, but I just used a texture that I already had. The curtains have a lot of folds and baking a lightmap in unity was somehow quite difficult, it generated way too sharp shadows. I don't know what was going on with that. This is a blender render. It seems that it didn't like resizing it to smaller for web.",
           "fi": "Punainen huone Twin Peaksista. Tässä huoneessa tapahtuu outoja ja pelottavia asioita, se on unenomainen paikka. Lattian siksakkitekstuurin on samankaltainen mutta ei ihan juuri oikea joka tv-sarjassa oli, mutta käytin sellaista tekstuuria joka minulla jo oli. Verhoissa on paljon poimuja ja niiden lightmapin tekeminen unityssä oli jostain syystä todella haastavaa, niihin tuli jatkuvasti liian jyrkkiä varjoja. Tämä kuva on renderöity blenderissä."
         }
       },
@@ -850,8 +850,8 @@
         "file": "bc-stonewheel m.jpg",
         "type": "image",
         "description": {
-          "en": "I got the idea for this from B.C. comic strip. The character is made into that pose so it is unusable as an avatar, but I made that stonewheel into a ridable prop in CVR. It uses the old particles system for the hair hair in blender.",
-          "fi": "Sain idean tähän Pulteri-sarjakuvasta. Hahmo on tehty tuohon asentoon joten sitä ei sellaisenaan voi käyttää muuhun, mutta tein kivipyörästä ajettavan propin Chillouttiin. Hiukset ja parransänki käyttävät blenderin vanhaa partikkelisysteemiä."
+          "en": "I got the idea for this from B.C. comic strip. The character is made into that pose so it is unusable as an avatar, and it uses the old particles system for the hair hair in blender. But, I made that stonewheel into a ridable prop in CVR.",
+          "fi": "Sain idean tähän Pulteri-sarjakuvasta. Hahmo on tehty tuohon asentoon joten sitä ei sellaisenaan voi käyttää muuhun, ja hiukset ja parransänki käyttävät blenderin vanhaa partikkelisysteemiä. Mutta, tein kivipyörästä ajettavan propin Chillouttiin."
         }
       }
     ]
