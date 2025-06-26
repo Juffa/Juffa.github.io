@@ -1,0 +1,1350 @@
+[
+  {
+    "slug": "pepe",
+    "thumb": "pepe default s.png",
+    "title": {
+      "en": "Pepe",
+      "fi": "Pepe"
+    },
+    "tags": [
+      "frog",
+      "pepe",
+      "avatar"
+    ],
+    "media": [
+      {
+        "file": "pepe default m.png",
+        "type": "image",
+        "description": {
+          "en": "Pepe, based on a meme frog, is an avatar made by me and I've uploaded and published it in ChilloutVR.",
+          "fi": "Pepe on tekemäni avatari joka perustuu meemisammakkoon."
+        }
+      },
+      {
+        "file": "pepe all 2 m.png",
+        "type": "image",
+        "description": {
+          "en": "Pepe has multiple sweater designs and a suit and other things like a duck beak (what?) he can wear. Pepe has a belly that jiggles when Pepe is walking or dancing, or doing about anything. Pepe is loved by everyone.",
+          "fi": "Pepellä on useita paitadesignejä ja puku, ja muita juttuja kuten ankan nokka (mitä?) joita voi laittaa päälle. Pepellä on iso maha joka heiluu joustavasti joka suuntaan kävellessä ja tanssiessa. Kaikki rakastavat Pepeä."
+        }
+      },
+      {
+        "file": "pepe all m.png",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      },
+      {
+        "file": "pepe alien m.png",
+        "type": "image",
+        "description": {
+          "en": "Alien pepe.",
+          "fi": "Avaruusolio-pepe."
+        }
+      },
+      {
+        "file": "pepe mirror monster m.png",
+        "type": "image",
+        "description": {
+          "en": "Another alien-like evolution of pepe.",
+          "fi": "Toinen avaruusolio-evoluutio pepestä."
+        }
+      },
+      {
+        "file": "pepeman-carrotman m.png",
+        "type": "image",
+        "description": {
+          "en": "And another evolution of Pepe, Pepeman, and his friend, the Carrotman. Pepeman and Carrotman, bodybuilding.",
+          "fi": "Ja jälleen yksi pepen evoluutio, Pepeman, ja kaverinsa Carrotman."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "60s_lounge",
+    "thumb": "60s lounge 1s.png",
+    "title": {
+      "en": "60's Scifi lounge",
+      "fi": "60-luvun Scifi odotushuone"
+    },
+    "tags": [
+      "60's",
+      "lounge",
+      "scifi"
+    ],
+    "media": [
+      {
+        "file": "60s lounge 1m.png",
+        "type": "image",
+        "description": {
+          "en": "This started as a bunch of AI-generated 60's science fiction lounge reference images. Almost all of them had this orange couch. It was a bit different in every image, but still quite similar in all of them, so I picked the one I liked most and modeled it. Every part of the project was found in one or more of the AI reference images.",
+          "fi": "Tämä projekti alkoi AI-generoiduista \"60-luvun scifi odotushuone\" -kuvista. Lähes jokaisessa oli tällainen oranssi sohva jonka päätin mallentaa. Projektin jokainen osa löytyy jostain generoidusta kuvasta."
+        }
+      },
+      {
+        "file": "60s lounge 2m.png",
+        "type": "image",
+        "description": {
+          "en": "One refererence image had this thing that looked like it could be a globe map thing under a glass dome, so that's what I made.",
+          "fi": "Yhdessä referenssikuvassa oli tällainen karttapallon näköinen ison lasikuvun alla, joten sellaisen siitä tein."
+        }
+      },
+      {
+        "file": "60s lounge 3m.png",
+        "type": "image",
+        "description": {
+          "en": "Jukebox. It resembles a Wurlizer jukebox, but the reference was AI-generated, and we can see where it got the idea for it. The color scheme is bit different than in the rest of the room, but jukebox is meant to stand out I think.",
+          "fi": "Jukeboxi. Se muistuttaa jotakin Wurlizerin mallia, mutta referenssi oli generoitu keinoälyllä. Värit eivät ihan osu yhteen huoneen värien kanssa, mutta jukeboxinhan kuuluukin olla hyvin ympäristöstään erottuva."
+        }
+      },
+      {
+        "file": "60s lounge 4m.png",
+        "type": "image",
+        "description": {
+          "en": "A projector. Again I generated a bunch of \"60's scifi projector\" images and selected one. The handle at the top seems silly, but that's what AI gave me, so that's what I made.",
+          "fi": "Projektori. Generoin kasan 60-luvun scifi projektoreita ja valitsin yhden, jonka sitten mallensin. Kahvan näköinen viritys sen päällä on myös suoraan referenssikuvasta, vaikka se vaikuttaa vähintäänkin erikoiselta ratkaisulta."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "bunnyrobot",
+    "thumb": "bunny_robot_render S.png",
+    "title": {
+      "en": "Bunnyrobot",
+      "fi": "Robottipupu"
+    },
+    "tags": [
+      "furry",
+      "robot",
+      "bunny",
+      "avatar"
+    ],
+    "media": [
+      {
+        "file": "bunny_robot_render M.png",
+        "type": "image",
+        "description": {
+          "en": "The robot bunny started out as a prompt in stable diffusion, I generated some reference images and then made it into 3D. The general appearance is from one of the generated images, but some details are from multiple images. The joints are still just balls, I'm not sure what I want to do  with them.",
+          "fi": "Robottipupu sai alkunsa tekstipromptissa stable diffusionissa, generoin muutamia kuvia ja käytin niitä referenssinä tämän tekemiseen. Robotin ulkoasu ja pää perustuvat yhteen kuvaan, mutta detailit eri puolilla kehoa ovat eri kuvista. Nivelet ovat vain perus pallot tällä hetkellä enkä ole varma mitä haluan niiden kanssa tehdä."
+        }
+      },
+      {
+        "file": "bunnyrobot2.jpg",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      }
+    ]
+  },
+  {
+    "slug": "birthday",
+    "thumb": "bday_table_render s.png",
+    "title": {
+      "en": "Birthday",
+      "fi": "Synttärit"
+    },
+    "tags": [
+      "birthday",
+      "AI"
+    ],
+    "media": [
+      {
+        "file": "bday_table_render m.png",
+        "type": "image",
+        "description": {
+          "en": "Birthday table with a cake and cards. Me and couple of friends were arranging birthday parties in ChilloutVR, so I started making props for that. So I started by making birthday card images with an AI, and then I made the card object itself and a table with a cake. They are now spawnable props in ChilloutVR.",
+          "fi": "Pöytä synttärikakulla ja korteilla. Alettiin järjestämään synttäreitä parin kaverin kanssa ChilloutVR:ssä, joten tein sitä varten proppeja, kortteja ja pöydän kakkuineen. Korttien kuvat ovat tehty kuvien generointiin tehdyllä keinoälyllä."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "muumit",
+    "thumb": "muumit s.png",
+    "title": {
+      "en": "Moomins 3D",
+      "fi": "Muumit 3D"
+    },
+    "tags": [
+      "moomins",
+      "muumit",
+      "muumi"
+    ],
+    "media": [
+      {
+        "file": "muumit m.png",
+        "type": "image",
+        "description": {
+          "en": "A recreation of Moomins in 3D. I think it worked out pretty well. I made them to work as an avatar in ChilloutVR, the body proportions aren't really great for that but it's okay for desktop playing. The tails and the Moomin mamma's apron use magica cloth 2 so they move and flow pretty nicely.",
+          "fi": "3D -versio muumeista, onnistui mielestäni melko hyvin. Tein niistä avatarit ChilloutVR:ään. Vaikka vartalon mittasuhteet eivät kovin hyvin VR:ssä toimikaan, ne ovat ihan toimivat desktopilla pelattaessa. Hännät ja Muumimamman essu käyttävät magica cloth 2:sta, joten ne liikkuvat ja elävät melko hyvin."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "frens",
+    "thumb": "frens all s.png",
+    "title": {
+      "en": "Frens",
+      "fi": "Frens"
+    },
+    "tags": [
+      "furry",
+      "frens",
+      "avatar"
+    ],
+    "media": [
+      {
+        "file": "frens all m.png",
+        "type": "image",
+        "description": {
+          "en": "Okay, so a 'Fren' is supposedly some swedish meme, and a swedish friend of mine made a base version and asked if I want to make custom versions of them. So these are what came out of that. They were supposed to be very low effort, with no real hands or feet, but then I went overboard with them. Each of them is based on a player's avatar on ChilloutVR. Someone made a nav mesh follower mod for the game, and these can work with that, so they can run after you or do some tasks you can assing to them, like fetch an item or so. There is going to be more of these...",
+          "fi": "Joo eli siis 'Fren' on ilmeisesti jokin ruotsalainen meemi, ja eräs ruotsalainen kaveri teki siitä perusversion ja kysyi haluanko tehdä kustomoituja versioita. Nämä ovat siitä syntyneitä. Niiden oli tarkoitus olla todella vähällä vaivannäöllä tehtyä mutta meni vähän överiksi. Jokainen näistä perustuu pelaajan avatariin ChilloutVR:ssä. Joku teki nav mesh follower modin kyseiseen peliin jonka avulla muunmuassa näitä hahmoja voi käyttää followereina, joita voi komentaa tekemään kaikenlaisia asioita. Näitä olisi tarkoitus tehdä lisää..."
+        }
+      },
+      {
+        "file": "frens_tactical m.png",
+        "type": "image",
+        "description": {
+          "en": "Tactical fren from behind. I made too good feet for this, so I had to make actual hands, too.",
+          "fi": "Tactical fren takaa. Tein sille liian hyvät jalat, joten sitten oli pakko tehdä paremmat kädetkin."
+        }
+      }
+    ]
+  },
+  
+  {
+    "slug": "easterbunny",
+    "thumb": "bunny_clothes s.png",
+    "title": {
+      "en": "Easter Bunny",
+      "fi": "Pääsiäispupu"
+    },
+    "tags": [
+      "furry",
+      "bunny",
+      "avatar",
+      "easter"
+    ],
+    "media": [
+      {
+        "file": "bunny_clothes m.png",
+        "type": "image",
+        "description": {
+          "en": "I took an older project and updated it, and turned it into an avatar. I changed the face quite a bit, the original was more actual rabbitlike, but the new shape is nicer. After adding the hair and making the clothes, the character turned out looking much younger than I planned.",
+          "fi": "Otin vanhan projektin ja muokkasin sitä, ja tein siitä avatarin. Muutin kasvoja aika paljon. Alkuperäiset näyttivät enemmän oikealta jänikseltä, mutta uudet kasvot ovat paremman näköiset. Hiusten ja vaatteiden teon jälkeen hahmo näytti paljon nuoremmalta kuin olin suunnitellut."
+        }
+      },
+      {
+        "file": "bunnyreach1 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "This one is from the original older project, with the original face design.",
+          "fi": "Tämä on alkuperäisestä vanhemmasta projektista, alkuperäisellä kasvojen muodolla."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "livesey",
+    "thumb": "Livesey1 s.png",
+    "title": {
+      "en": "Dr. Livesey",
+      "fi": "Dr. Livesey"
+    },
+    "tags": [
+      "avatar",
+      "livesey"
+    ],
+    "media": [
+      {
+        "file": "Livesey1 m.png",
+        "type": "image",
+        "description": {
+          "en": "You know him from the meme, Livesey walk, or if not, check it out. I modeled him and turned him into a playable avatar in ChilloutVR. I even found his walking animation and added it into the avatar. Obviously with such exaggerated body proportions the arms are a problem in VR, but it's still pretty good. Works perfectly on desktop however. All in all making this took like 4 days, including textures and face expressions and shape keys for lipsync.",
+          "fi": "Tuttu meemistä 'Livesey walk', katso youtubesta jos ei ole tuttu. Tein modelin ja tein siitä pelattavan hahmon ChilloutVR:ään. Löysin jopa Liveseyn kävelyanimaation ja lisäsin sen hahmoon. Mutta tietenkin näin liioitelluilla vartalon mittasuhteilla kädet ovat pieni ongelma VR:ssä, mutta silti ei kovin paha. Tietokoneella pelattaessa täydellinen. Kaikenkaikkiaan tämän avatarin tekemiseen kului noin 4 päivää, mukaanlukien textuurit, ilmeet ja shape keyt puhetta tai lipsyncciä varten."
+        }
+      },
+      {
+        "file": "Livesey2 m.png",
+        "type": "image",
+        "description": {
+          "en": "You know him from the meme, Livesey walk, or if not, check it out. I modeled him and turned him into a playable avatar in ChilloutVR. I even found his walking animation and added it into the avatar. Obviously with such exaggerated body proportions the arms are a problem in VR, but it's still pretty good. Works perfectly on desktop however. All in all making this took like 4 days, including textures and face expressions and shape keys for lipsync.",
+          "fi": "Tuttu meemistä 'Livesey walk', katso youtubesta jos ei ole tuttu. Tein modelin ja tein siitä pelattavan hahmon ChilloutVR:ään. Löysin jopa Liveseyn kävelyanimaation ja lisäsin sen hahmoon. Mutta tietenkin näin liioitelluilla vartalon mittasuhteilla kädet ovat pieni ongelma VR:ssä, mutta silti ei kovin paha. Tietokoneella pelattaessa täydellinen. Kaikenkaikkiaan tämän avatarin tekemiseen kului noin 4 päivää, mukaanlukien textuurit, ilmeet ja shape keyt puhetta tai lipsyncciä varten."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "bikermice",
+    "thumb": "bikermice1 s.png",
+    "title": {
+      "en": "Throttle",
+      "fi": "Throttle"
+    },
+    "tags": [
+      "furry",
+      "biker",
+      "mouse",
+      "biker mice from mars",
+      "avatar"
+    ],
+    "media": [
+      {
+        "file": "throttle1 m.png",
+        "type": "image",
+        "description": {
+          "en": "This is Throttle, the leader of the biker mice from mars, from a 90's cartoon. I tried to stay as close as possible to the original art, though there are some parts that need improvement. Textures are very simple now, they'd really need improvement.",
+          "fi": "Tämä on Throttle, prätkähiirien johtaja, 90-luvun tv-sarjasta prätkähiiret marsista. Yritin pitää hahmon mahdollisimman lähellä alkuperäistä. 3D malli tarvitsisi vähän parantelua sieltä ja täältä, ja etenkin tekstuurit ovat todella yksinkertaiset nyt."
+        }
+      },
+      {
+        "file": "throttle2 m.png",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      }
+    ]
+  },
+
+
+
+  {
+    "slug": "sauna",
+    "thumb": "saunarender s.jpg",
+    "title": {
+      "en": "Sauna",
+      "fi": "Sauna"
+    },
+    "tags": [
+      "interior",
+      "realism",
+      "wood",
+      "sauna"
+    ],
+    "media": [
+      {
+        "file": "saunarender m.jpg",
+        "type": "image",
+        "description": {
+          "en": "My sauna is a spawnable prop I've upladed in to ChilloutVR. Originally I made it for an meme image I wanted to reproduce in 3D, 'nordic countries in sauna', where the countries were represented as Pepe frogs. In the game, the Sauna appears just as a door you can click and then you get teleported to the sauna. The sauna stove has an animated fire particle effect and a burning sound. The textures have ligts baked into them. Wood is difficult as a texture, and sauna has a lot of wood surface in a small area. The texture has to be large enough or else it starts repeating too soon, and it needs to be large enough that you can actually see the wood patterns.",
+          "fi": "Sauna on 'proppi' eli 'esine' jonka olen uploadannut ChilloutVR:ään. Alunperin tein saunan meemikuvaa varten, jonka halusin uudelleentehdä 3D:ksi, 'pohjoismaat saunassa', jossa Pepet edustivat pohjoismaita. Pelissä sauna näyttää ensin vain ovelta jonka voi laittaa mihin vain, ja ovea klikkaamalla pelaaja siirtyy saunaan. Kiukaassa on animoitu tulipartikkeli -efekti ja palamisen ääni. Valot ja varjot on leivottu tekstuureihin mukaan. Puu on vaikea tekstuurina, ja saunassa on paljon puuta pienessä tilassa. Tekstuurin täytyy olla tarpeeksi suuri ettei se ala toistumaan liian aikaisin, ja sen täytyy olla myös tarpeeksi suuri että puun kuviot ovat vielä nähtävissä."
+        }
+      },
+      {
+        "file": "saunaviewport m.jpg",
+        "type": "image",
+        "description": {
+          "en": "description",
+          "fi": "kuvaus"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "hima",
+    "thumb": "hima1 s.jpg",
+    "title": {
+      "en": "My place",
+      "fi": "Koti"
+    },
+    "tags": [
+      "apartment",
+      "realistic"
+    ],
+    "media": [
+      {
+        "file": "hima1 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "It's my home, but unfinished. Here you can see my kitchen, with the original 70's cabinets. I guess green was a popular color back then. The dishwasher is just a box, and the fridge is old one, I had to replace the real life fridge with a newer one when the old broke.",
+          "fi": "Kotini, mutta keskeneräinen. Tässä näette keittiöni, alkuperäisillä 70-luvun kaapeilla. Veikkaan että vihreä oli suosittu väri silloin. Tiskikone on vielä vain laatikko, ja jääkaappi on vanha, sillä jouduin vaihtamaan sen uuteen kun vanha hajosi."
+        }
+      },
+      {
+        "file": "hima2 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      },
+      {
+        "file": "hima3 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Captured from ChilloutVR. Light setup is still... pretty much unfinished.",
+          "fi": "Kuva ChilloutVR:stä. Valosetuppi on aikalailla kesken."
+        }
+      },
+      {
+        "file": "hima4 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Captured from ChilloutVR.",
+          "fi": "Kuva ChilloutVR:stä."
+        }
+      },
+      {
+        "file": "hima5 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Captured from ChilloutVR.",
+          "fi": "Kuva ChilloutVR:stä."
+        }
+      }
+    ]
+  },
+
+  {
+    "slug": "redroom",
+    "thumb": "red room1 s.jpg",
+    "title": {
+      "en": "Red room",
+      "fi": "Punainen huone"
+    },
+    "tags": [],
+    "media": [
+      {
+        "file": "red room1 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "The Red Room from Twin Peaks. Weird and scary things happen in this room. It's a dreamlike place. The zigzag pattern on the floor should be more pronounced, but I just used a texture that I already had. The curtains have a lot of folds and baking a lightmap in unity was somehow quite difficult, it generated way too sharp shadows. I don't know what was going on with that. This is a blender render.",
+          "fi": "Punainen huone Twin Peaksista. Tässä huoneessa tapahtuu outoja ja pelottavia asioita, se on unenomainen paikka. Lattian siksakkitekstuurin on samankaltainen mutta ei ihan juuri oikea joka tv-sarjassa oli, mutta käytin sellaista tekstuuria joka minulla jo oli. Verhoissa on paljon poimuja ja niiden lightmapin tekeminen unityssä oli jostain syystä todella haastavaa, niihin tuli jatkuvasti liian jyrkkiä varjoja. Tämä kuva on renderöity blenderissä."
+        }
+      },
+      {
+        "file": "red room2 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "A chair from the Red Room.",
+          "fi": "Nojatuoli Punaisesta huoneesta."
+        }
+      }
+    ]
+  },
+
+
+  {
+    "slug": "spacestation5",
+    "thumb": "space station 5 s.png",
+    "title": {
+      "en": "Space station 5",
+      "fi": "Avaruusasema 5"
+    },
+    "tags": [],
+    "media": [
+      {
+        "file": "space station 5 m.png",
+        "type": "image",
+        "description": {
+          "en": "The space station from 2001: Space odyssey. Or the generic shape is that, the textures are AI-generated and partly still missing. I'm trying to repeat the same textures as much as possible, but getting the rest of the station textured seems to be difficult if I'm going to keep the textures at minimum.",
+          "fi": "Avaruusasema Avaruusseikkailu 2001:stä. Tai sen yleinen ulkoasu, tekstuurit ovat AI-generoidut ja puuttuvat yhä osittain. Yritän toistaa samoja tekstuureita niin paljon kuin mahdollista, mutta koko loppuaseman teksturointi vaikuttaa haastavalta, etenkin jos yritän pitää tekstuurien koon ja määrän minimissä."
+        }
+      },
+      {
+        "file": "space station 5 tuolit m.png",
+        "type": "image",
+        "description": {
+          "en": "Chairs from the Hilton hotel in space station.",
+          "fi": "Hilton hotellin tuolit avaruusasemalta."
+        }
+      }
+    ]
+  },
+  
+  {
+    "slug": "galleryworld",
+    "thumb": "galleryworld s.jpg",
+    "title": {
+      "en": "Gallery world",
+      "fi": "Galleriamaailma"
+    },
+    "tags": [],
+    "media": [
+      {
+        "file": "galleryworld m.jpg",
+        "type": "image",
+        "description": {
+          "en": "It's a gallery world for AI art. There are somewhere around 120 AI-generated funny images, like different movies combined into a single movie poster, like 'fellowship of the ring in matrix', or 'klingon empire strikes back', which combines star trek and star wars.",
+          "fi": "Galleriamaailma keinoälytaiteelle. Galleriassa on noin 120 generoitua hauskaa kuvaa, kuten eri elokuvien julisteita yhdistetty samaan kuvaan, esimerkiksi 'fellowship of the ring in matrix' tai 'klingon empire strikes back' joka yhdistelee star trekkiä ja star warsia"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "beachplanet",
+    "thumb": "planet1 s.jpg",
+    "title": {
+      "en": "A beach planet",
+      "fi": "Rantaplaneetta"
+    },
+    "tags": [
+      "",
+      ""
+    ],
+    "media": [
+      {
+        "file": "planet1 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "A beach planet, I spesifically made it to use two new-at-the-time additions to ChilloutVR: water volumes and gravity. Gravity can be in spherical form, and it works with water volumes and buoyancy, so you can walk, swim and float on the planet. The water uses Mochie's water shader in unity so the image is taken from CVR.",
+          "fi": "Rantaplaneetta, jonk vartavasten tein kahta uudehkoa ChilloutVR:n ominaisuutta varten: vesi ja painovoima. Painovoima (ja vesi) voivat olla myös pallon muotoisia, joten planeetalla voi kävellä, uida ja kellua. Vesi käyttää Mochien vesi shaderia unityssä, joten kuva on otettu Chilloutista."
+        }
+      },
+      {
+        "file": "planet2 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      }
+    ]
+  },
+
+  {
+    "slug": "mazeplanet",
+    "thumb": "mazeplanet s.png",
+    "title": {
+      "en": "Maze planet",
+      "fi": "Sokkeloplaneetta"
+    },
+    "tags": [
+      "planet",
+      "maze"
+    ],
+    "media": [
+      {
+        "file": "mazeplanet m.png",
+        "type": "image",
+        "description": {
+          "en": "ChilloutVR got some gravity options, like spherical gravity. So I made a spherical maze planet. It's really trippy, especially in VR mode. I'm planning to add some more stuff in there, and make it into a game, like, you search for buttons to press and it opens a door somewhere.",
+          "fi": "ChilloutVR sai painovoima-optioita kuten pallomaisen painovoiman. Joten tein pallomaisen sokkeloplaneetan. Se tuntuu erityisen sekavalta, etenkin VR moodissa. Olen suunnitellut lisääväni sinne kaikenlaista, ja että teen siitä pelin, tyyliin että pelaaja etsii sieltä nappeja mitkä avaa ovia jossain muualla."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "flintmobile",
+    "thumb": "flintmobile1 s.png",
+    "title": {
+      "en": "The Flintmobile",
+      "fi": "Kivisten auto"
+    },
+    "tags": [],
+    "media": [
+      {
+        "file": "flintmobile1 m.png",
+        "type": "image",
+        "description": {
+          "en": "The Flintmobile from the Flintstones. In the show and comics the car was always changing it's design and shape, and the number of seats also changes from two to five, or even more, if it was needed by the plot. Everything is made from wood and stone.",
+          "fi": "Kivikauden auto kivisistä ja sorasista. Sarjakuvissa ja tv-sarjassa auton designi muuttui jatkuvasti, aina sen mukaan mitä siltä kulloinkin tarvittiin. Esimerkiksi istuinten lukumäärä saattoi joskus olla kaksi, ja jos kyytiin piti mahtua enemmän porukkaa niin autossa olikin yhtäkkiä takapenkki. Kaikki on tehty kivestä ja puusta."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "patrolcraft",
+    "thumb": "lymphocyte_patrol_craft s.png",
+    "title": {
+      "en": "Lymphocyte patrol craft",
+      "fi": "Lymfosyytti-partioalus"
+    },
+    "tags": [
+      "craft",
+      "flying"
+    ],
+    "media": [
+      {
+        "file": "lymphocyte_patrol_craft m.png",
+        "type": "image",
+        "description": {
+          "en": "This is modeled after the patrol craft that the lymphocytes fly (or dive?) in the 'Once Upon A Time... Life' cartoon series. It's a flyable prop I made to be used in ChilloutVR. Of course, like usually in cartoons, it's design changed slightly from episode to episode, but I picked the one from the first episode.",
+          "fi": "Tämä on mallennettu 'Olipa kerran elämä' -sarjasta tutun lymfosyyttien partioaluksen mukaan. Se on lennettävä proppi jonka tein ChilloutVR:ään. Tietenkin, kuten aina piirretyissä, sen designi muuttuu vähäsen episodista toiseen, mutta valitsin sen joka on ensimmäisessä episodissa."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "ufo",
+    "thumb": "ufo1 s.png",
+    "title": {
+      "en": "UFO",
+      "fi": "UFO"
+    },
+    "tags": [
+      "UFO",
+      "spaceship"
+    ],
+    "media": [
+      {
+        "file": "ufo1 m.png",
+        "type": "image",
+        "description": {
+          "en": "An UFO. It's a flyable prop I made to be used in ChilloutVR. The latest version includes lights that circulate around the edge. I made them with placing their UV's strategically and then panning the emission map with a shader.",
+          "fi": "UFO. Lennettävä proppi jonka tein ChilloutVR:ään. Viimeisimmässä versiossa on valoja jotka kiertää reunojen ympäri. Toteutin ne siirtämällä niiden UV't tiettyyn järjestykseen ja sitten shaderilla liikuttamalla niiden emission mappia."
+        }
+      },
+      {
+        "file": "ufolights.gif",
+        "type": "image",
+        "description": {
+          "en": "The rotating lights around the ufo are animated.",
+          "fi": "Ufolla on animoidut valot."
+        }
+      },
+      {
+        "file": "ufo3 m.png",
+        "type": "image",
+        "description": {
+          "en": "An older version of the ufo with alien pepe inside.",
+          "fi": "Vanhempi versio Ufosta."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "rosie",
+    "thumb": "rosie s.png",
+    "title": {
+      "en": "Rosie the robot from Jetsons",
+      "fi": "Rosie robotti Jetsoneista"
+    },
+    "tags": [
+      "robot",
+      "rosie",
+      "jetsons"
+    ],
+    "media": [
+      {
+        "file": "rosie m.png",
+        "type": "image",
+        "description": {
+          "en": "Rosie, the maid robot from Jetsons. I made it as playable avatar in ChilloutVR. Because of how the arms are, I had to make it a puppet rig setup, so one rig is following the player's movements and then they are copied to the other.",
+          "fi": "Rosie, robotti Jetsoneista. Tein siitä pelattavan hahmon ChilloutVR:ään Käsivarsien koosta ja sijainnista johtuen täytyi sille tehdä ns. puppet rig, eli ihmisen kokoinen 'luuranko' josta robotin vastaava kopio liikkeet."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "uaot",
+    "thumb": "uaot_render1 s.jpg",
+    "title": {
+      "en": "UAoT Dragon Roar intro",
+      "fi": "UAoT Dragon Roar intro"
+    },
+    "tags": [
+      "dragon",
+      "gw2",
+      "uaot",
+      "mgm",
+      "intro"
+    ],
+    "media": [
+      {
+        "file": "uaot-dragonroar.mp4",
+        "type": "video",
+        "description": {
+          "en": "I made this dragon for United Arts of Tyria -guild in Guild Wars 2. It is based on a picture drawn by another artist but I made it in 3D. Then I animated it based on the MGM Lion roar intro you see in some films.",
+          "fi": "Tein tämän 'lohikäärmeen' United Arts of Tyria -pelaajakillalle Guild Wars 2 pelissä, ja se perustuu erään toisen artistin tekemään kuvaan. Lisäksi animoin sen MGM:n elokuvista tutun leijonankarjunta-intron mukaan."
+        }
+      },
+      {
+        "file": "uaot_render1 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      },
+      {
+        "file": "uaot_render2 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Alternative version which I ended deciding against. Still pretty nice.",
+          "fi": "Vaihtoehtoinen versio jota päätin olla käyttämättä. Silti ihan hieno."
+        }
+      }
+    ]
+  },
+  
+  {
+    "slug": "workchair",
+    "thumb": "workchair s.png",
+    "title": {
+      "en": "Workchair",
+      "fi": "Työtuoli"
+    },
+    "tags": [
+      
+    ],
+    "media": [
+      {
+        "file": "workchair m.png",
+        "type": "image",
+        "description": {
+          "en": "I modeled my chair... And then I turned it into an interactable prop in ChilloutVR. I have multiple versions of it, one is an 'AFK' chair, and when you sit on it, it spawns rotating particles that represent the activities I might be doing while Away From Keyboard, like eating or using Blender or Unity Another version is actually drivable chair-car that you can race with.",
+          "fi": "Mallensin tuolini... Ja sitten tein siitä vuorovaikutteisen propin ChilloutVR:ään. Siitä on useampi versio, yksi on ns. AFK tuoli (away from keyboard, eli 'poissa näppäimistön läheltä'). Kun siihen istuu, sen ympärille ilmestuu pyöriviä kuvia jotka ilmaisevat mitä saatan olla tekemässä, kuten syömässä tai käyttämässä Blenderiä tai Unityä. Toinen versio on ajettava 'rallituoli'."
+        }
+      },
+      {
+        "file": "workchair_wire m.png",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      }
+    ]
+  },
+  {
+    "slug": "littlehelper",
+    "thumb": "littlehelper s.png",
+    "title": {
+      "en": "Little Helper",
+      "fi": "Pikku Apulainen"
+    },
+    "tags": [
+      "robot",
+      "light",
+      "avatar"
+    ],
+    "media": [
+      {
+        "file": "littlehelper m.png",
+        "type": "image",
+        "description": {
+          "en": "Little helper is based on a character from Donald Duck comics, the Little helper robot of Gyro Gearloose. I made it into a playable avatar in ChilloutVR. The light level can be controlled, and it's set up to react to player's voice.",
+          "fi": "Pikku apulainen perustuu Aku Ankasta tuttuun Pelle Pelottoman robottiapulaiseen. Tein siitä pelattavan hahmon ChilloutVR:ään. Valon kirkkautta voi hallita, ja se on asetettu reagoimaan pelaajan puheeseen, eli se kirkastuu puhuessa."
+        }
+      },
+      {
+        "file": "littlehelper_wire m.png",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      }
+    ]
+  },
+
+  {
+    "slug": "audio-technica",
+    "thumb": "audio-technica-render s.jpg",
+    "title": {
+      "en": "Audio-technica headphones",
+      "fi": "Audio-technica kuulokkeet"
+    },
+    "tags": [
+      "headphones",
+      "kuulokkeet",
+      "audio-technica"
+    ],
+    "media": [
+      {
+        "file": "audio-technica-render m.jpg",
+        "type": "image",
+        "description": {
+          "en": "These Audio-technica headphones were nice, and I wanted to model them. But later the faux leather started to peel off of the earpads after less than two years of use, and then it started to peel off of the headband. Earpads were replaceable, but the headband wasn't. If that was not enough, the plastic at the joint cracked and they became unusable in less than 4 years. ",
+          "fi": "Nämä Audio-technican kuulokkeet olivat varsin mukavat, ja halusin mallentaa ne. Mutta myöhemmin keinonahka alkoi kuoriutua pehmusteista parin vuoden jälkeen, ja pannan pehmustetta ei voinut vaihtaa. Myöhemmin muovi murtui kuulokkeen ja pannan liitoskohdasta ja kuulokkeilla ei enää tehnyt mitään. "
+        }
+      },
+      {
+        "file": "audio-technica-render-colors m.jpg",
+        "type": "image",
+        "description": {
+          "en": "I made a few texture options",
+          "fi": "tein muutaman eri version"
+        }
+      },
+      {
+        "file": "audio-technica-wireframe m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Wireframe",
+          "fi": "Wireframe"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "sid",
+    "thumb": "sid_chip s.png",
+    "title": {
+      "en": "Sid chip",
+      "fi": "Sid -piiri"
+    },
+    "tags": [
+      "sid",
+      "c64",
+      "commodore",
+      "MOS",
+      "6581"
+    ],
+    "media": [
+      {
+        "file": "sid_chip m.png",
+        "type": "image",
+        "description": {
+          "en": "This is a MOS 6581, the SID chip from the Commodore 64. I happen to have one lying around, So I modeled it, and took pictures of the original and used them as textures for the model. Then I turned it into multiple props in ChilloutVR, each playing a different tune made with this chip back in the day.",
+          "fi": "MOS 6581, Commodore 64:n äänipiiri eli SID. Minulla sattuu olemaan yksi, ja päätin mallentaa sen. Otin kuvat alkuperäisestä ja käytin niitä tekstuureina. Sitten tein siitä useamman propin ChiloutVR:ään, jokaisessa yksi musiikkikappale mitä on aikanaan tehty kyseisellä äänipiirillä."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "smurfs",
+    "thumb": "smurf s.png",
+    "title": {
+      "en": "Smurfs",
+      "fi": "Smurffit"
+    },
+    "tags": [
+      "smurfs",
+      "smurf",
+      "gargamel",
+      "avatar"
+    ],
+    "media": [
+      {
+        "file": "smurf m.png",
+        "type": "image",
+        "description": {
+          "en": "A Smurf I made. It's not the first smurf I've made, but it's the most accurate one. I made comical lip sync shape keys, or visemes, for it, so it looks a bit like how they talk in cartoons. I guess I could make customizations for it, so it could be any of the smurfs, now it's just a generic smurf.",
+          "fi": "Smurffi. Ei ensimmäinen tekemäni smurffi, mutta paras tähän mennessä. Tein sille sarjakuvamaiset visemet lipsyncille puhumista varten. Voisin varmaan tehdä smurffista erilaisia versioita, mutta nyt se on vain geneerinen smurffi. "
+        }
+      },
+      {
+        "file": "gargamel m.jpg",
+        "type": "image",
+        "description": {
+          "en": "One of my earliest humanoid models in blender. And then I turned it into a playable avatar in ChilloutVR.",
+          "fi": "Yksi ensimmäisistä hahmoista joita tein blenderillä. Tein siitä myöhemmin pelattavan hahmon ChilloutVR:ään."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "bc_stonewheel",
+    "thumb": "bc-stonewheel s.jpg",
+    "title": {
+      "en": "B.C. stonewheel",
+      "fi": "Pulteri"
+    },
+    "tags": [
+      "B.C.",
+      "stone age",
+      "pulteri"
+    ],
+    "media": [
+      {
+        "file": "bc-stonewheel m.jpg",
+        "type": "image",
+        "description": {
+          "en": "I got the idea for this from B.C. comic strip. The character is made into that pose so it is unusable as an avatar, but I made that stonewheel into a ridable prop in CVR. It uses the old particles system for the hair hair in blender.",
+          "fi": "Sain idean tähän Pulteri-sarjakuvasta. Hahmo on tehty tuohon asentoon joten sitä ei sellaisenaan voi käyttää muuhun, mutta tein kivipyörästä ajettavan propin Chillouttiin. Hiukset ja parransänki käyttävät blenderin vanhaa partikkelisysteemiä."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "quaggan_pool",
+    "thumb": "quaggan s.jpg",
+    "title": {
+      "en": "A Quaggan (Guild Wars 2)",
+      "fi": "Quaggan (Guild Wars 2)"
+    },
+    "tags": [
+      "quaggan",
+      "gw2",
+      "pool"
+    ],
+    "media": [
+      {
+        "file": "quaggan m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Quaggans are intelligent bibedal whale-like beings from Guild Wars 2. This one is actually still just a hatchling. I think I made it cuter than it is in the game, so it's only partially accurate, but then again I didn't want to just to copy something exactly. Everything here is made by me.",
+          "fi": "Quagganit ovat älykkäitä kahdella jalalla käveleviä valaankaltaisia olentoja Guild Wars 2 -pelistä. Tämä on vasta poikanen. Uskoisin että tein siitä söpömmän kuin mitä se on pelissä, joten se kuvastaa quaggania vain osittain, mutta toisaalta en halunnut suoraan kopioida sitä. Kaikki tässä on minun tekemää."
+        }
+      },
+      {
+        "file": "quagganscircle2_nb m.png",
+        "type": "image",
+        "description": {
+          "en": "Here's a render used as a texture in the pool.",
+          "fi": "Tässä vielä renderöinti jota käytin altaan tekstuurina."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "barso",
+    "thumb": "barso1s.png",
+    "title": {
+      "en": "Barsoomian, an albino space monkey",
+      "fi": "Barso"
+    },
+    "tags": [
+      "barsoomian",
+      "barso",
+      "monkey",
+      "batmud",
+      "render"
+    ],
+    "media": [
+      {
+        "file": "barso1m.png",
+        "type": "image",
+        "description": {
+          "en": "This is a barsoomian from Batmud. Or at least it's my version of it, since the game is text-based. Barsoomians are albino space monkeys with four arms. They are rather small and weak, which is compensated with their ability to wield four weapons at the same time. Though the weapons also have to be rather small, because they are so weak. This is only fit for rendering for now, I have not made it into an avatar.",
+          "fi": "Tämä on barsoomian tai tuttavallisesti barso, Batmud-pelistä. Tai ainakin minun versio siitä, koska peli on tekstipohjainen. Barsot ovat albiino-apinoita avaruudesta joilla on neljä kättä. Ne ovat melko pieniä ja heikkoja, mutta kyky käyttää neljää asetta yhtäaikaa kompensoi tätä. Tosin aseiden täytyy olla melko pieniä, koska barsot ovat niin heikkoja. Tämä on tarkoitettu nyt vain renderöintiin, en ole tehnyt siitä pelihahmoa."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "nils",
+    "thumb": "nils s.png",
+    "title": {
+      "en": "Nils Holgersson.",
+      "fi": "Nils Holgersson"
+    },
+    "tags": [
+      "avatar",
+      "nils",
+      "thumbling"
+    ],
+    "media": [
+      {
+        "file": "nils m.png",
+        "type": "image",
+        "description": {
+          "en": "Nils Holgersson, from the tv-series The Wonderful Adventures of Nils. I tried to go for low-poly and for the style from the original 80's series. I wasn't sure how I wanted to do the eyes, and while thinking that I started another project and forgot this.",
+          "fi": "Nils Holgersson, Peukaloisen retkistä. Nils on tarkoituksella tehty pienellä polygonimäärällä, ja tyyli on haettu alkuperäisestä 80-luvun piirretystä. En ollut varma siitä että miten haluan tehdä silmät, ja sitä miettiessä aloitin toisen projektin ja unohdin tämän."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "vizlet",
+    "thumb": "vizlet s.jpg",
+    "title": {
+      "en": "Vizlet",
+      "fi": "Vizlet"
+    },
+    "tags": [
+      "vizlet",
+      "furry",
+      "yinglet",
+      "webcomic"
+    ],
+    "media": [
+      {
+        "file": "vizlet m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Vizlet is a character from a webcomic 'Out Of Placers' by Valsalia. Vizlet is a Yinglet, they are a small somewhat intelligent race in that world. Vizlet is a matriarch of her local enclave, respected by yinglets and humans. ",
+          "fi": "Vizlet on hahmo nettisarjakuvasta 'Out Of Placers', jota tekee piirtää Valsalia. Vizlet on Yinglet, jotka ovat pieniä, jokseenkin älykkäitä olentoja. Vizlet on paikallisen enklaavin matriarkka, jota yingletit mutta myös ihmiset kunnioittavat. "
+        }
+      },
+      {
+        "file": "vizletthink m.jpg",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      },
+      {
+        "file": "vizlet_wire m.jpg",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      }
+    ]
+  },
+
+  {
+    "slug": "couch",
+    "thumb": "musta_nahkasohva_mini.png",
+    "title": {
+      "en": "Couch",
+      "fi": "Sohva"
+    },
+    "tags": [
+      "couch",
+      "furniture"
+    ],
+    "media": [
+      {
+        "file": "sohva.jpg",
+        "type": "image",
+        "description": {
+          "en": "A leather couch I have in my livingroom. The real life couch is not in pristine condition like the 3d version, since it's rather old and been through a lot. Also this is the first project where I did some sculpting, it felt really difficult. I sculpted the grooves and stuff like that, baked a normal map out of them and now they are applied on top of the clean lowpoly mesh. I made a black version as well.",
+          "fi": "Nahkasohva olohuoneestani. Mallina käytetty sohva ei ole ihan yhtä uudenveroisessa kunnossa kuin 3d-versio, kun se on jo aika vanha. Tämä sohva on ensimmäinen projekti jossa harjoittelin sculptaamista Blenderissä, joka tuntui alkuun todella vaikealta. Urat siis on tehty sculptaamalla ja siitä on tehty ns. normal map jolla saa enemmän tarkkuutta kuvaan pitämällä sen tarkkuuden silti jokseenkin matalana. Tein myös mustan version."
+        }
+      },
+      {
+        "file": "musta_nahkasohva.jpg",
+        "type": "image",
+        "description": {
+          "en": "A black version I made, it looks much better.",
+          "fi": "Musta, paremmannäköinen versio."
+        }
+      },
+      {
+        "file": "sohva_wire.jpg",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      }
+    ]
+  },
+  
+  {
+    "slug": "random",
+    "thumb": "cvr-props s.png",
+    "title": {
+      "en": "Random 3D",
+      "fi": "Satunnaista 3D"
+    },
+    "tags": [
+      "random"
+    ],
+    "media": [
+      {
+        "file": "cvr-props m.png",
+        "type": "image",
+        "description": {
+          "en": "Various props made for ChilloutVR. The hats and glasses can be attached to a players head, the plunger to any body part. The copium tanks are a joke for 'VRChat refugees'.",
+          "fi": "Erinäisiä proppeja ChilloutVR:ään. Hatut ja lasit voi kiinnittää pelaajan päähän, karhupumpun mihin tahansa ruumiinosaan. Copium tankit ovat vitsi VRChatista paenneille. "
+        }
+      },
+      {
+        "file": "gingerbreadman m.png",
+        "type": "image",
+        "description": {
+          "en": "It's a gingerbread man, pretty simple, but it has facial expressions.",
+          "fi": "Piparkakku-ukko, aika yksinkertainen, mutta sillä on eri ilmeitä."
+        }
+      },
+      {
+        "file": "cat_attachments m.png",
+        "type": "image",
+        "description": {
+          "en": "Cat dolls. They are inspired by couple of players in ChilloutVR, or the avatars they are often using. They can be attached to a player, and their little arms hug the player when attached.",
+          "fi": "Kissanuket. Ne ovat parin ChilloutVR pelaajan inspiroimia, tai hahmojen joita he käyttävät. Ne voidaan kiinnittää pelaajaan, jolloin niiden pienet käsivarret halaavat pelaajaa."
+        }
+      },
+      {
+        "file": "mascot-piggy m.png",
+        "type": "image",
+        "description": {
+          "en": "This is a 3D-printable mascot piggy for a player guild in Guild Wars 2. It is based on an image one of the players made. I made it for them as a surprise.",
+          "fi": "Tämä on 3D -tulostettava maskotti eräälle pelaajakillalle Guild Wars 2 pelissä. Se perustuu erään pelaajan tekemään kuvaan."
+        }
+      },
+      {
+        "file": "cat_painting m.png",
+        "type": "image",
+        "description": {
+          "en": "A cat painting. I used the stable diffusion AI to generate a painting of a cat, then I used it as a texture for a plane in this painting. Then for the eye blink and mouth open and closed shapekeys, I cut up the plane into parts that move and/or stretch. It works pretty well. The eyes are also inverted, it's a trick to make it look like they are following the viewer. Then I made the frame and used a free wood texture from ambientcg.com for it. Also the painting itself has a cloth normal map from the same site.",
+          "fi": "Kissamaalaus. Käytin stable diffusion keinoälyä kuvan generointiin, ja laitoin sen tekstuuriksi tasolle, jonka leikkasin paloihin joista osa liikkuu ja osa venyy silmien ja suun animointia varten. Silmät ovat myös käänteiset, se on temppu jolla saa ne näyttämään siltä että ne seuraavat katsojaa. Tein kehykset ja hain ambientcg.com:sta ilmaisen puutekstuurin sille. Itse maalauksella on myös kangaskuvion normal mappi samalta sivustolta."
+        }
+      },
+      {
+        "file": "wacomtablet m.jpg",
+        "type": "image",
+        "description": {
+          "en": "I decided to model something I have on my desk. So I modeled a Wacom pen. Then I felt it was necessary to model the tablet too. The tablet was a lot more difficult to make than the pen, it's actually a single mesh (except for the lights and so, they are separate meshes). It's not 100% accurate, but close enough. The whole pen has a roughness map on it, but it's really visible on the button. Looks like fingerprints, just like on the real thing.",
+          "fi": "Päätin tehdä 3d-mallin jostakin pöydällä olevasta esineestä, joten tein ensin Wacomin kynän. Sitten koin tarpeelliseksi tehdä piirtopöydän myös. Piirtopöytä oli paljon vaikeampi tehdä kuin kynä, mutta se on tehty yhdestä osasta, napit mukaanlukien. Se ei ole 100% tarkka, mutta tarpeeksi lähellä. Kynän napissa on ns. rougness map, eli se heijastaa valoa eri kohdista eri lailla, niin kuin siinä olisi sormenjälkiä. itsasiassa se on ihan kaikessa mutta erityisesti napissa se on näkyvä."
+        }
+      },
+      {
+        "file": "Cheese m.png",
+        "type": "image",
+        "description": {
+          "en": "Just a funny image of cheese and items made out of cheese.",
+          "fi": "Hauska kuva juustosta ja juustosta tehdyistä esineistä."
+        }
+      },
+      {
+        "file": "wooddummy m.jpg",
+        "type": "image",
+        "description": {
+          "en": "This wooden dummy I made has procedural textures. So yeah, well I didn't invent it, but I saw a nice tutorial about procedural wood texture in blender and decided to make a good practise dummy for that. it's also rigged, and that's the second purpose for this simple model, so I can practise that stuff easily.",
+          "fi": "Tässä puisessa mallinukessa on myös proseduraalinen tekstuuri. Netistä löytyi hyvä esimerkki miten blenderissä voi tehdä proseduraalista puutekstuuria, joten hyödynsin sitä tässä mallinukessa. Nukke on myös rigattu eli sitä voi liikutella eri asentoihin"
+        }
+      },
+      {
+        "file": "crazy_track m.jpg",
+        "type": "image",
+        "description": {
+          "en": "A quite crazy racetrack. The image is captured from ChilloutVR, and there's a car on the track, for size reference. It is possible to drive through the track, it's not easy though. Funny how the basic shape worked on the first try, even though it's so crazy. Car props in the game have physics. The racetrack prop filesize is only 445Kb.",
+          "fi": "Melko kaheli ajorata. Kuva on kaapattu ChilloutVR:stä, ja radalla on auto jotta koko on helpompi käsittää. Rata on mahdollista ajaa läpi, tosin se ei ole helppoa. Radan perusmuoto toimi ensimmäisellä yrityksellä, vaikka se onkin niin hullun muotoinen. ChilloutVR:n autopropeilla on realistinen fysiikkamallennus. Ajoradan koko on vain 445Kb."
+        }
+      },
+      {
+        "file": "emergency_salad m.png",
+        "type": "image",
+        "description": {
+          "en": "Emergency Salad. In case of emergency, break the glass.",
+          "fi": "Hätäsalaatti Hätätilanteessa riko lasi."
+        }
+      },
+      {
+        "file": "glasstable m.jpg",
+        "type": "image",
+        "description": {
+          "en": " A glass table. A quick glass table design. This was pretty quick, only about 30 minutes or so. I didn't have any reference images for this one, but it is possible I've seen it somewhere... I don't know.",
+          "fi": "Lasipöytä. Pikaisesti tehty lasipöytädesigni. Tosiaan aika äkkiä tehty sen enempiä miettimättä, noin 30 minuuttia taisi mennä. En käyttänyt mitään referenssejä, ainakaan tietoisesti, on mahdollista että olen joskus nähnyt tällaisen jossain."
+        }
+      },
+      {
+        "file": "nallepuhmukit m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Winnie the Pooh mugs. I wanted to make a 3d image of some mugs I have. This was a bit different, since I had to actually draw, and I'm not very good at that... But I can somewhat successfully copy images I see. Even if some proportions in the image are off, it turned out OK.",
+          "fi": "Nalle-puh mukit. Halusin tehdä 3d-kuvan mukeista joita minulla on. Tämä oli vähän erilainen, koska piirsin kuvan itse mallista, ja en ole kovin kummoinen piirtämään. Mutta siitä tuli ihan välttävä."
+        }
+      },
+      {
+        "file": "smurfette m.jpg",
+        "type": "image",
+        "description": {
+          "en": "An early 3D character I made. Though here Smurfette is a bit more grown-up... In more than one way. I had planned 'something' for Gargamel and Smurfette, but as Smurfette started to form up, I couldn't do that to her. It would be just wrong.",
+          "fi": "Smurffiina, yksi ensimmäisistä hahmoista joita olen tehnyt. Tosin tässä Smurffiina on vähän enemmän kasvanut, useammallakin tavalla... Olin suunnitellut jotain Gargamel-velholle ja Smurffiinalle, mutta en sitten voinutkaan tehdä sitä, se olisi niin väärin..."
+        }
+      }
+    ]
+  },
+  
+  {
+    "slug": "batweapons",
+    "thumb": "batwepat s.jpg",
+    "title": {
+      "en": "fantasy weapons and stuff",
+      "fi": "keskiaikafantasia-aseita jne."
+    },
+    "tags": [
+      "fantasy",
+      "weapons",
+      "batmud"
+    ],
+    "media": [
+      {
+        "file": "batwepat m.jpg",
+        "type": "image",
+        "description": {
+          "en": "These are various fantasy weapons and stuff that are made according to their descriptions in Batmud, a text-based mmo.",
+          "fi": "Nämä ovat sekalaisia aseita Batmudista, tehty niiden kuvausten mukaisesti. Batmud on tekstipohjainen mmo."
+        }
+      },
+      {
+        "file": "mannekii_taistelu m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Just a funny image with mannequins and weapons.",
+          "fi": "Hauska kuva mannekiineistä ja aseista."
+        }
+      },
+      {
+        "file": "barbmace m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Mace of Barbarian Lords. Description:'Wielded by fierce Barbarian Lords, this finely crafted mace has seen many battles. Strangely enough, no nicks or scratches malign the evil beauty of this weapon.'",
+          "fi": "Mace of Barbarian Lords, tai Barbaarilordien Nuija. Kuvaus: 'Tämä hienosi valmistettu nuija on nähnyt monta taistelua babaarilordien käsissä. Mutta mikä oudointa, siinä ei näy ainoatakaan naarmua.'"
+        }
+      },
+      {
+        "file": "barbmace1 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "These are various fantasy weapons and stuff that are made according to their descriptions in Batmud, a text-based mmo.",
+          "fi": "Nämä ovat sekalaisia aseita Batmudista, tehty niiden kuvausten mukaisesti. Batmud on tekstipohjainen mmo."
+        }
+      },
+      {
+        "file": "greendeath m.jpg",
+        "type": "image",
+        "description": {
+          "en": "The sabre 'Green Death'. Description: 'It is a gleaming green blade, a sabre to be more accurate. Its quality is very fine. The hilt, made of the same metal as the blade, but bound with leather for better grip, is embedded with some emeralds.'",
+          "fi": "The sabre 'Green Death', tai Vihreän Kuolon Sapeli. Kuvaus: 'Se on kimaltevan vihreä miekka, tarkalleen ottaen sapeli. se on todella hienoa työtä. Kahva on tehty samasta metallista kuin terä, mutta kiedottu nahkaan jotta siitä saa paremman otteen. Siinä on useita smaragdeja'"
+        }
+      },
+      {
+        "file": "kprurian m.jpg",
+        "type": "image",
+        "description": {
+          "en": "'K’prurian', battle mace. Description: 'this is simply a battle mace, carved from hard, grey wood of the Puric Oak, with mithril inlays and grip of gold wire.'",
+          "fi": "'K’prurian', battle mace, tai taistelunuija. Kuvaus: 'Tämä on yksinkertaisesti taistelunuija, kaiverrettu kovasta, harmaasta tammipuusta. Siinä on mithrilkoristeita ja kultapunoksinen kädensija.'"
+        }
+      },
+      {
+        "file": "kraftigar m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Kraftigar, trident of darkness. Description: 'This weapon is not just made to kill. It is made to mutilate, dismember, torture and kill. Its substance seems to absorb light hungrily.'",
+          "fi": "Kraftigar, trident of darkness, tai pimeyden kolmikärki. Kuvaus: 'Tätä asetta ei ole tehty vain tappamiseen, vaan silpomiseen, ruhjomiseen, kidutukseen JA tappamiseen. Sen materiaali tuntuu syövän valoa ahnaasti.'"
+        }
+      },
+      {
+        "file": "maul m.jpg",
+        "type": "image",
+        "description": {
+          "en": "The HUGE (undead) crushing maul. Description: 'This maul is most famous and widely known for its' ability to crush undead creatures of the realm.' Additional description: 'Massive war sledge with electric sparks.'",
+          "fi": "The HIGE (undead) crushing maul, tai SUURI (epäkuolleita) murskaava leka. Kuvaus: 'Tämä leka on kuuluisa kyvystään murskata epäkuolleita olentoja.' Lisäkuvaus: 'Massiivinen sotaleka joka säkenöi sähköä.'"
+        }
+      },
+      {
+        "file": "rubyspear m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Ruby long spear. Description: 'This weapon is a lengthy shaft of enchanted oak, topped with a triangular head of gleaming, translucent ruby. The spear is void of any runes, barbs, or decorations commonly found on enchanted weapons.'",
+          "fi": "Ruby long spear, tai Rubiinikärkinen keihäs, Kuvaus: 'Tämä ase koostuu pitkähköstä lumotusta tammipuisesta varresta, jonka päässä on terävä, kiiltävä, läpikuultava rubiini. Keihäässä ei ole riimuja tai muitakaan koristeita joita yleensä lumotuissa aseissa löytyy'"
+        }
+      },
+      {
+        "file": "rubylongspear2 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "A test that ended looking too much like jewelry, but otherwise looks really nice.",
+          "fi": "Testi joka päätyi näyttämään liian paljon korulta, mutta muuten aika kiva."
+        }
+      },
+      {
+        "file": "sizzlingkatana m.jpg",
+        "type": "image",
+        "description": {
+          "en": "A Sizzling Katana. Description: 'It is a gleaming green blade, a sabre to be more accurate. Its quality is very fine. The hilt, made of the same metal as the blade, but bound with leather for better grip, is embedded with some emeralds.'",
+          "fi": "Sizzling Katana, tai Kihisevä Katana. Kuvaus: 'Tämä miekka säteilee vihaa. Legenda kertoo että Saatana itse takoi sen mahtavimmalle luutnantilleen. 'Daemonus' on älykäs miekka, voit tuntea sen pahantahtoisuuden kirivän ylös käsiäsi pitkin kun tutkit sen välkehtivän punaista terää. Kahva on kiedottu lohikäärmeennahkaan jonka kuviointi näyttää liikkuvan.'"
+        }
+      },
+      {
+        "file": "swordofwonders m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Sword of Wonders. Description: 'This is the legendary sword of wonders. Some say it is cursed, some say it is blessed, but all that is certain is that it is strange. The blade is five feet long and made of green crystal. The hilt is made of red crystal and the pommel is an octagonal dull grey gemstone. The pommel - there is something weird about it. ",
+          "fi": "Sword of Wonders, tai Ihmeiden Miekka. Kuvaus: 'Tämä on legendaarinen Ihmeiden Miekka. Joidenkin mielestä se on kirottu, toisten mielestä siunattu, mutta varmaa on vain se että se on outo. Terä on viisi jalkaa pitkä ja tehty vihreästä kristallista. Väisti on tehty punaisesta kristallista ja nuppi on kahdeksankulmainen himmeänharmaa jalokivi. Nuppi tuntuu jotenkin oudolta.'"
+        }
+      },
+      {
+        "file": "voulge m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Hot crystal voulge of DOOM. Description: 'It is a simple, unadorned polearm with nine feet shaft and four feet blade made of red crystal. Inside the shaft and blade you can see a faint pulsating red glow. The light appears to pulsate as quickly as your heart! Maybe the weapon is alive! There is some writing on the shaft.'",
+          "fi": "Hot crystal voulge of DOOM, tai TUOMION tulipunainen kristallitappara. kuvaus: 'Se on yksinkertainen, koristelematon tappara jonka varsi on viisi jalkaa pitkä ja sen neljä jalkaa pitkä terä on tehty punaisesta kristallista. Varren ja terän sisällä voi nähdä heikon sykkivän punaisen hohteen. Hohde sykkii sydämesi tahdissa! Ase saattaakin olla elävä! Varressa on jotain kirjoitusta.'"
+        }
+      },
+      {
+        "file": "breastplates m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Related to the batweapons project, the first suggestion for a 'Breastplate of Xzui'. Description: 'It is made of shining adamantium and reinforced with black zhentorium. Breastplate is all smooth and shaped according muscular fighter body. Plate has golden letters 'Xzui' attached to it. This armour is a manifest of excellent craftsmanship'. Multiple versions, some feminine variations. To be honest, they ended up looking like too modern.",
+          "fi": "Liittyy batmud -aseprojektiin, ensimmäinen ehdotus 'Xzuin rintapanssariksi'. Kuvaus: 'Se on valmistettu kirkkaasta adamantiumista ja vahvistettu mustalla zhentoriumilla.Rintapanssari on täysin sileä ja sen kuviointi mukailee lihaksikasta vartaloa. Siihen on kaivererttu sana 'Xzui' kultaisin kirjaimin. Tämä panssari kuvastaa erinomaista käsityötaitoa'. Monta eri versiota. Rehellisesti sanottuna, se päätyi näyttämään liian modernilta."
+        }
+      },
+      {
+        "file": "LOC blade m.png",
+        "type": "image",
+        "description": {
+          "en": "LOC blade, or blade of Lords of Chaos.",
+          "fi": "LOC miekka."
+        }
+      },
+      {
+        "file": "snakedirk1 m.png",
+        "type": "image",
+        "description": {
+          "en": "Snake dirk.",
+          "fi": "Käärmetikari."
+        }
+      }
+    ]
+  },
+  {
+    "slug": "printable",
+    "thumb": "wcpaperiteline s.jpg",
+    "title": {
+      "en": "Printable 3D",
+      "fi": "Printattavia"
+    },
+    "tags": [
+      "printable"
+    ],
+    "media": [
+            {
+        "file": "wcpaperiteline m.jpg",
+        "type": "image",
+        "description": {
+         "en": "The 3D design for printing is fundamentally different than the design for graphics, since you need to take into account the printer's cababilities, the properties of the used material and the basic physics involved in additive printing. You cannot print on top of nothing, and while the printed object is strong and flexible in X and Y directions, it's much more stiff and brittle in Z-direction.",
+        "fi": "3D designi tulostusta varten on lähtökohdiltaan erilaista kuin grafiikkaa varten, koska tässä täytyy ottaa huomioon tulostimen kyvyt, materiaalin ominaisuudet ja lisäävän tulostuksen perusfysiikka. Tyhjän päälle ei voi tulostaa, ja tulostettava kohde on vahva ja joustava vain X- ja Y-suunnissa, mutta jäykkä ja hauras Z-suunnassa."
+
+        }
+      },
+            {
+        "file": "puhelinteline m.jpg",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      },
+
+      {
+        "file": "kotelo3 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      },      {
+        "file": "kotelo4 m.jpg",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      },
+
+      {
+        "file": "jatkojohdonpidike m.jpg",
+        "type": "image",
+        "description": {
+          "en": "",
+          "fi": ""
+        }
+      },
+      {
+        "file": "wingnut m.jpg",
+        "type": "image",
+        "description": {
+          "en": "You can use this to tighten or loosen nuts and bolts, especially ones that don't need to be really tight.",
+          "fi": "Tätä voi käyttää pulttien ja mutterien säätämiseen, etenkin sellaisten minkä ei tarvitse olla kovin tiukalla."
+        }
+      },
+            {
+        "file": "facemask_render m.jpg",
+        "type": "image",
+        "description": {
+          "en": "Facecmask test, from the covid times...",
+          "fi": "kasvomaskitesti korona-ajoilta"
+        }
+      }
+    ]
+  }
+]

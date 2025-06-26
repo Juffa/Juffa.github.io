@@ -1,14 +1,15 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Portfolio</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-        <!--[if IE]>
+  <title>Portfolio</title>
+
+  <!--[if IE]>
     <div id="warning">
     <h4 class="red">Your Browser Is Not Supported! Selaimesi ei ole tuettu!</h4><br />
     <p>Please upgrade to <a href='http://getfirefox.com'>FireFox</a>. Thank You!&nbsp;&nbsp;&nbsp;
@@ -16,123 +17,148 @@
     </div>
     <![endif]-->
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
-    <!-- Custom styles for this template -->
-    <link href="../album.css" rel="stylesheet">
-  </head>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <body>
-    <noscript>
-      <div style="position: fixed; top: 0px; left: 0px; z-index: 3000; 
+  <!-- Custom styles for this template -->
+  <link href="../album.css" rel="stylesheet">
+</head>
+
+<body>
+  <noscript>
+    <div style="position: fixed; top: 0px; left: 0px; z-index: 3000; 
                   height: 100%; width: 100%; background-color: #FFFFFF">
-          <p style="margin-left: 10px">JavaScript is not enabled.</p>
-      </div>
+      <p style="margin-left: 10px">JavaScript is not enabled.</p>
+    </div>
   </noscript>
-  
 
-      <header class="fixed-top" id="header">
-     
-        </header>
 
-    <main class="container-fluid">
+  <header class="fixed-top" id="header">
 
-      <section class="jumbotron-fluid bg-dark mb-1">
-          <div class="container-fluid">
-          <div class="text-center">
+
+
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d-flex justify-content-start
+           ">
+        <!--justify-content-between-->
+        <a href="../Portfolio.html" class="navbar-brand d-flex">
+          <strong>Portfolio</strong>
+
+        </a>
+        <span class="text-white row-fluid align-left ">
+          <span class="link" onclick="setLanguage('fin')">[FI] </span>
+          <span class="link" onclick="setLanguage('eng')"> [EN]</span>
+        </span>
+
+
+
+      </div>
+    </div>
+
+  </header>
+
+  <main class="container-fluid">
+
+    <section class="jumbotron-fluid bg-dark mb-1">
+      <div class="container-fluid">
+        <div class="text-center">
           <h1 class="jumbotron-heading text-white">Portfolio</h1>
           <p class="lead text-muted">Juha Kaikko</p>
-          <div class="eng collapse">
-          <small class="text-muted">Work in progress...</small>
+          <div class="eng ">
+            <small class="text-muted">Work in progress...</small>
           </div>
-          <div class="fin collapse">
-          <small class="text-muted">Jatkuvasti työn alla...</small>
+          <div class="fin ">
+            <small class="text-muted">Jatkuvasti työn alla...</small>
           </div>
           <!--kuvat 540x300px-->
         </div>
-      </section>
+    </section>
 
-      <div class="album py-5 bg-dark">
-        <div class="container-fluid">
+    <div class="album py-5 bg-dark">
+      <div class="container-fluid">
 
-          <div class="row">
-
-
-              <div class="col-md-4">
-                  <div class="card mb-4 shadow-sm link" onclick="window.location.href='../portfolio/Design3d.html'">
-                   <img class="card-img-top bg-dark" src="./portfolio/images/design3d.jpg" >
-                   <!--<video width="auto" height="auto" autoplay loop> <source src="./portfolio/images/uaot-dragonroar.mp4"></video>-->
-                    <div class="card-body bg-dark eng collapse">
-                      <p class="lead text-white">3D design<br><br>
-                      </p>
-                    </div>
-                    <div class="card-body bg-dark fin collapse">
-                      <p class="lead text-white">3D -designi<br><br>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+        <div class="row">
 
 
-            
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm link" onclick="window.location.href='../portfolio/Camerarotator.html'">
-                <img class="card-img-top bg-dark"  src="./portfolio/images/pf_cam.jpg" >
-                <div class="card-body bg-dark eng collapse">
-                  <p class="lead text-white">Project: An Arduino-controlled motorized panoramic tripod head
-                  </p>
-                </div>
-                <div class="card-body bg-dark fin collapse">
-                  <p class="lead text-white">Projekti: Arduino-ohjattu moottoroitu kamerapää
-                  </p>
-                </div>
-              </div>
+          <div class="col-md-4">
+            <div class="card mb-1 shadow-sm link" onclick="window.location.href='Design3d.html'">
+              <img class="card-img-top bg-dark" src="./60s_lounge/60s lounge 1s.png">
             </div>
+            <div class="card-body bg-dark eng" style="padding-bottom:0; padding-top:0">
+              <p class="lead text-white">3D design<br><br>
+              </p>
+            </div>
+            <div class="card-body bg-dark fin" style="padding-bottom:0; padding-top:0">
+              <p class="lead text-white">3D -designi<br><br>
+              </p>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4">
+            <div class="card mb-1 shadow-sm link" onclick="window.location.href='camerarotator.html'">
+              <img class="card-img-top bg-dark" src="./camerarotator/pf_cam.jpg">
+            </div>
+            <div class="card-body bg-dark eng" style="padding-bottom:0; padding-top:0">
+              <p class="lead text-white">Project: An Arduino-controlled motorized panoramic tripod head
+              </p>
+            </div>
+            <div class="card-body bg-dark fin" style="padding-bottom:0; padding-top:0">
+              <p class="lead text-white">Projekti: Arduino-ohjattu moottoroitu kamerapää
+              </p>
+            </div>
+          </div>
 
 
 
 
 
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm link" onclick="window.open('https://github.com/Juffa')">
-                <img class="card-img-top" src="./portfolio/images/pf_code.jpg" >
-                <div class="card-body bg-dark eng collapse">
-                  <p class="lead text-white">Programming<br><br>
-                  </p>
-                  </a>
-                </div>
-                <div class="card-body bg-dark fin collapse">
-                  <p class="lead text-white">Ohjelmointi<br><br>
-                  </p>
-                </div>
-              </div>
-            </div>  
 
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm link" onclick="window.location.href='../portfolio/Photography.html'">
-                  <img class="card-img-top" src="./portfolio/images/pf_photo.jpg" >
-                  <div class="card-body bg-dark eng collapse">
-                    <p class="lead text-white">Photography<br><br>
-                    </p>
-                  </div>
-                  <div class="card-body bg-dark fin collapse">
-                    <p class="lead text-white">Valokuvaus<br><br>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-
-
-
-
-          </div><!--row-->
+          <div class="col-md-4">
+            <div class="card mb-1 shadow-sm link" onclick="window.open('https://github.com/Juffa')">
+              <img class="card-img-top" src="pf_code.jpg">
+            </div>
+            <div class="card-body bg-dark eng" style="padding-bottom:0; padding-top:0">
+              <p class="lead text-white">Programming<br><br>
+              </p>
+              </a>
+            </div>
+            <div class="card-body bg-dark fin" style="padding-bottom:0; padding-top:0">
+              <p class="lead text-white">Ohjelmointi<br><br>
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
 
-    </main>
+        <div class="col-md-4">
+          <div class="card mb-1 shadow-sm link" onclick="window.location.href='photography.html'">
+            <img class="card-img-top" src="pf_photo.jpg">
+          </div>
 
+          <div class="card-body bg-dark eng" style="padding-bottom:0; padding-top:0">
+            <p class="lead text-white">Photography<br><br>
+            </p>
+          </div>
+          <div class="card-body bg-dark fin" style="padding-bottom:0; padding-top:0">
+            <p class="lead text-white">Valokuvaus<br><br>
+            </p>
+          </div>
+        </div>
+
+
+
+
+
+
+      </div><!--row-->
+    </div>
+    </div>
+
+  </main>
+
+  <!--
     <footer class="text-muted eng collapse">
       <div class="container-fluid">
         <p class="float-right">
@@ -147,22 +173,63 @@
         </p>
       </div>
     </footer>
+  -->
+  <footer class="text-muted eng">
+    <div class="container-fluid">
+      <a href="../Portfolio.html">&lt;--Back to Portfolio</a>
+      <p class="float-right">
+        <a href="#">Back to top</a><br>
 
-    <!-- Bootstrap core JavaScript
+      </p>
+    </div>
+  </footer>
+  <footer class="text-muted fin">
+    <div class="container-fluid">
+      <a href="../Portfolio.html">&lt;--Takaisin Portfolion etusivulle</a>
+      <p class="float-right">
+        <a href="#">Takaisin ylös</a><br>
+
+      </p>
+    </div>
+  </footer>
+
+
+
+  <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.4/holder.min.js"></script>
-    
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+
   <script>
-      //$("body").prepend($('<header>').load("../index.html #header", function(){}));
-        $("#header").load("../index.html #header > *");
-        //console.log("trying to load header");
+    // Set language and update visibility
+    function setLanguage(lang) {
+      localStorage.setItem('jklanguage', lang);
+      applyLanguageVisibility();
+    }
+
+    // Hide/show based on saved language
+    function applyLanguageVisibility() {
+      const lang = localStorage.getItem('jklanguage') || 'eng';
+      const engEls = document.querySelectorAll('.eng');
+      const finEls = document.querySelectorAll('.fin');
+
+      if (lang === 'fin') {
+        engEls.forEach(el => el.style.display = 'none');
+        finEls.forEach(el => el.style.display = '');
+      } else {
+        engEls.forEach(el => el.style.display = '');
+        finEls.forEach(el => el.style.display = 'none');
+      }
+    }
+
+    applyLanguageVisibility();
   </script>
-  <script src="../jk.js"></script>
 
+</body>
 
-  </body>
 </html>
